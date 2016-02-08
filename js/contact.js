@@ -30,7 +30,7 @@ $(document).ready(function() {
 
             jQuery.ajax({
                 type: "POST",
-                url: "http://formspree.io/info@ibusiness.sa",
+                url: "http://ib.sa/contact.php",
                 dataType:"html",
                 data:myData,
                 success:function(response){
