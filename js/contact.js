@@ -30,7 +30,7 @@ $(document).ready(function() {
 
             jQuery.ajax({
                 type: "POST",
-                url: "http://ib.sa/contact.php",
+                url: "ib.sa/contact.php",
                 dataType:"html",
                 data:myData,
                 success:function(response){

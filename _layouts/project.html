@@ -1,0 +1,27 @@
+<!-- Start {{page.title}} -->
+<section id="{{page.title | downcase }}" class="section" data-stellar-background-ratio="0.5">
+    {% if page.dark %}<div class="overlay-dark"></div><!-- Overlay Dark --> {% endif %}
+    <div class="container">
+        <div class="row">
+            <!-- about text -->
+            <div class="col-md-7 wow fadeInUp">
+                <h3 class="black-text"> {{ page.title }}{% if page.title %} | {% endif %}</h3>
+                <div class="divider"></div>
+                <h6>{{page.brief}}</h6>
+                <p>{{page.description}}</p>
+            </div>
+            <!-- End about text -->
+            <div class="col-md-5 progress-bars wow fadeInUp">
+                {% include progressbar.html | metric: "Research" | progress: 100 %}
+                {% include progressbar.html | metric: "Design" | progress: 100 %}
+                {% include progressbar.html | metric: "Development" | progress: 100 %}
+            </div>
+            {% if page.more %}
+            <div class="col-md-12">
+                <a href="#" class="work-btn">More Information</a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<!-- End {{page.title}} -->
