@@ -1,17 +1,17 @@
 ---
 layout: project
-title: iPAY
-project-slogan: Integrated Payment Solution
+title: Impressions
+project-slogan: Intelligent Integrated Advertising
 work-head-image: http://placehold.it/1920x1000
-client: iPAY Client
+client: Impressions Client
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
-description: iPay is an online payment processing solution and invoicing system for your business. It provides a free system integration and support to your shopping cart or web service.
+description: Impressions is an online advertising service that enables advertisers to reach their niche user-base in an integrated method in e-commerce platforms.
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600
-big-image-alt: iPAY
+big-image-alt: Impressions
 
 # Work Presentation 2
 work-presentation-2-title: The Brand

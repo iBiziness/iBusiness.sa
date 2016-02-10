@@ -1,17 +1,17 @@
 ---
 layout: project
-title: iPAY
-project-slogan: Integrated Payment Solution
+title: iStore
+project-slogan: Intelligent E-Commerce Solution
 work-head-image: http://placehold.it/1920x1000
-client: iPAY Client
+client: iStore Client
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
-description: iPay is an online payment processing solution and invoicing system for your business. It provides a free system integration and support to your shopping cart or web service.
+description: iSTORE is all-in-one e-commerce solution that seamless facilitates and optimizes the process of creating an online presence, adding products, managing your inventory, automated logistic fulfillments of orders, and market exposures with high level of security & technical support.
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600
-big-image-alt: iPAY
+big-image-alt: iStore
 
 # Work Presentation 2
 work-presentation-2-title: The Brand

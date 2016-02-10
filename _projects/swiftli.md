@@ -1,17 +1,17 @@
 ---
 layout: project
-title: iPAY
-project-slogan: Integrated Payment Solution
+title: Swiftly
+project-slogan: Smart Logestic Services
 work-head-image: http://placehold.it/1920x1000
-client: iPAY Client
+client: Swiftly Client
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
-description: iPay is an online payment processing solution and invoicing system for your business. It provides a free system integration and support to your shopping cart or web service.
+description: Swiftli is an on-demand delivery network that makes getting things in your city more convenient, affordable, and reliable.
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600
-big-image-alt: iPAY
+big-image-alt: Swiftly
 
 # Work Presentation 2
 work-presentation-2-title: The Brand
