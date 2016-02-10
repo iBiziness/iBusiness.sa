@@ -3,6 +3,11 @@ title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
   Site Description
 
+# Contact Information
+telephone: 920005022
+address: Firas Bin Nadr Street, Ulaya, Khobar, Saudi Arabia
+email: info@example.com
+
 # Social Links
 facebook: http://facebook.com
 twitter: http://twitter.com
