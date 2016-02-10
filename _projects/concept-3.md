@@ -1,18 +1,18 @@
 ---
 layout: project
-title: iStore
-category: 
-project-slogan: Intelligent E-Commerce Solution
+title: Concept 3
+category: Brand & Identity
+project-slogan: Intelligent Integrated Advertising
 work-head-image: http://placehold.it/1920x1000
-client: iStore Client
+client: Impressions Client
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
-description: iSTORE is all-in-one e-commerce solution that seamless facilitates and optimizes the process of creating an online presence, adding products, managing your inventory, automated logistic fulfillments of orders, and market exposures with high level of security & technical support.
+description: Impressions is an online advertising service that enables advertisers to reach their niche user-base in an integrated method in e-commerce platforms.
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600
-big-image-alt: iStore
+big-image-alt: Impressions
 
 # Work Presentation 2
 work-presentation-2-title: The Brand
@@ -32,4 +32,9 @@ work-presentation-3-image-alt: The Second Part
 research: 90
 design: 80
 development: 85
+
+# Latest
+latest: true
+latest-thumbnail: http://placehold.it/500x500
+latest-thumbnail-alt: Concept 5
 ---

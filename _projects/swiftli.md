@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Swiftly
+category: 
 project-slogan: Smart Logestic Services
 work-head-image: http://placehold.it/1920x1000
 client: Swiftly Client

@@ -1,6 +1,7 @@
 ---
 layout: project
 title: iPAY
+category: 
 project-slogan: Integrated Payment Solution
 work-head-image: http://placehold.it/1920x1000
 client: iPAY Client

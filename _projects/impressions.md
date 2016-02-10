@@ -1,6 +1,7 @@
 ---
 layout: project
 title: Impressions
+category: 
 project-slogan: Intelligent Integrated Advertising
 work-head-image: http://placehold.it/1920x1000
 client: Impressions Client
