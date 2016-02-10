@@ -32,4 +32,9 @@ work-presentation-3-image-alt: The Second Part
 research: 90
 design: 80
 development: 85
+
+# Latest (Add these part if you want it to show on latest works)
+latest: true
+latest-thumbnail: http://placehold.it/500x500
+latest-thumbnail-alt: iSTORE
 ---

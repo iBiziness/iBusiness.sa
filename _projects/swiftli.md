@@ -1,13 +1,13 @@
 ---
 layout: project
-title: Swiftly
+title: Swiftli
 category: 
 project-slogan: Smart Logestic Services
 work-head-image: http://placehold.it/1920x1000
-client: Swiftly Client
+client: Swiftli
 date: 2016-01-18 03:49:55 +0800
-website: www.example.com
-website-url: http://www.example.com
+website: Swiftli.io
+website-url: http://Swiftli.io
 description: Swiftli is an on-demand delivery network that makes getting things in your city more convenient, affordable, and reliable.
 
 # Work Presentation 1
@@ -32,4 +32,9 @@ work-presentation-3-image-alt: The Second Part
 research: 90
 design: 80
 development: 85
+
+# Latest (Add these part if you want it to show on latest works)
+latest: true
+latest-thumbnail: http://placehold.it/500x500
+latest-thumbnail-alt: Swiftli
 ---
