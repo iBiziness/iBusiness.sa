@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include header.html %}
+
+    <body data-spy="scroll" data-target=".navbar-default" data-offset="100">
+        <!-- Preloader -->
+        <div id="preloader">
+            <div id="spinner"></div>
+        </div>
+        <!-- End Preloader-->
+
+        {% include navbar.html %}
+
+        {{ content }}
+
+        {% include footer.html %}
+        {% include scripts.html %}
+    </body>
+</html>
