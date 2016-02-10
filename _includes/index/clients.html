@@ -6,12 +6,9 @@
             <div class="col-md-12 text-center wow fadeIn">
                 <!-- Carousel Clients -->
                 <div id="owl-clients">
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
-                    <div class="client"><img src="http://placehold.it/240x240" alt=""></div>
+                    {% for client in site.data.client %}
+                    <div class="client"><img src="{{ client.thumbnail }}" alt="{{ client.name }}"></div>
+                    {% endfor %}
                 </div>
                 <!-- End Carousel Clients -->
             </div>
