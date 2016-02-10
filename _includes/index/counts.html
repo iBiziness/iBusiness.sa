@@ -1,43 +1,18 @@
 <!-- Start Facts -->
-<section id="facts" class="p-bottom-140" style="display: none">
+<section id="facts" class="p-bottom-140">
     <div class="container">
         <div class="row">
+            {% for fact in site.data.counts %}
             <div class="col-md-3 col-sm-6">
                 <!-- facts box -->
                 <div class="box-count">
-                    <h1><span class="countup">958</span></h1>
-                    <h6>Happy Clients</h6>
+                    <h1><span class="countup">{{ fact.count }}</span>{{ fact.suffix }}</h1>
+                    <h6>{{ fact.title }}</h6>
                     <div class="divider-center"></div>
                 </div>
                 <!-- end facts box -->
             </div>
-            <div class="col-md-3 col-sm-6">
-                <!-- facts box -->
-                <div class="box-count">
-                    <h1><span class="countup">105</span>K</h1>
-                    <h6>Facebook Likes</h6>
-                    <div class="divider-center"></div>
-                </div>
-              <!-- end facts box -->
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <!-- facts box -->
-                <div class="box-count">
-                    <h1><span class="countup">60</span></h1>
-                    <h6>Awards</h6>
-                    <div class="divider-center"></div>
-                </div>
-                <!-- end facts box -->
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <!-- facts box -->
-                <div class="box-count">
-                    <h1><span class="countup">1362</span></h1>
-                    <h6>Retweetes</h6>
-                    <div class="divider-center"></div>
-                </div>
-                <!-- end facts box -->
-            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
