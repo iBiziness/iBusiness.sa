@@ -1,0 +1,13 @@
+# Site settings
+title: Information Business
+description: > # this means to ignore newlines until "baseurl:"
+  Site Description
+
+
+# Build settings
+markdown: kramdown
+
+collections:
+  projects:
+    permalink: /projects/:path/
+    output: true
