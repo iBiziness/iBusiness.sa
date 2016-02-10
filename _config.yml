@@ -1,7 +1,11 @@
 # Site settings
 title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
-  Site Description
+  Creative group of entrepreneurs specializing in all forms of information media
+
+# About Section
+about: We are a creative group of entrepreneurs specializing in all forms of information media.
+mission: Our mission is to build eco-system of purposeful services for enriching the web e-commerce experience.
 
 # Contact Information
 telephone: 920005022
