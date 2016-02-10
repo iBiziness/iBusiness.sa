@@ -3,11 +3,21 @@ title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
   Site Description
 
+# Social Links
+facebook: http://facebook.com
+twitter: http://twitter.com
+google: http://google.com
+linkedin: http://linkedin.com
+behance: http://behance.con
+dribble: http://dribble.com
+pinterest: http://pinterest.com
 
 # Build settings
 markdown: kramdown
 
+# Collections
 collections:
   projects:
     permalink: /project/:path/
     output: true
+
