@@ -1,5 +1,6 @@
 ---
 layout: project
+active: true
 title: iSTORE
 category: E-Commerce Infrastructure
 project-slogan: Intelligent E-Commerce Solution

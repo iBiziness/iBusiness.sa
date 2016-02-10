@@ -1,5 +1,6 @@
 ---
 layout: project
+active: true
 title: Expressions
 category: User Experience Design
 project-slogan: User Experience Design Studio
@@ -34,7 +35,6 @@ design: 100
 development: 100
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
 latest-thumbnail: http://placehold.it/500x500
 latest-thumbnail-alt: Expressions
 ---

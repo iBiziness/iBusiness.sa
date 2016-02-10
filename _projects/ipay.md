@@ -1,5 +1,6 @@
 ---
 layout: project
+active: true
 title: iPAY
 category: Payment Solutions
 project-slogan: Integrated Payment Solution

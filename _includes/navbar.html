@@ -30,9 +30,9 @@
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for project in site.projects %}
-                            <!--{% unless project.latest %}-->
+                            {% if project.active %}
                             <li><a data-scroll href="/#{{ project.title | slugify }}">{{ project.title }}</a></li>
-                            <!--{% endunless %}-->
+                            {% endif %}
                             {% endfor %}
                         </ul>
                     </li>
