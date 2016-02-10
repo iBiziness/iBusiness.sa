@@ -1,0 +1,61 @@
+<!-- Start Single Work -->
+<section id="single-work" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <!-- Work Detail -->
+                <div class="work-detail">
+                    <p><strong>Client:</strong>{{ page.client }}</p>
+                    <p><strong>Date:</strong>{{ page.date | date: "%-d %B %Y"}}</p>
+                    <p><strong>Online:</strong><a href="{{ page.website-url }}">{{ page.website }}</a></p>
+                </div>
+                <!-- End Work Detail -->
+            </div>
+            <div class="col-sm-7">
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+        <!-- Work Presentation 1 -->
+        <div class="row m-top-40">
+            <div class="col-md-12 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.big-image }}" alt="{{ page.big-image-alt }}">
+            </div>
+        </div>
+        <!-- Work Presentation 2 -->
+        <div class="row m-top-40">
+            <div class="col-sm-5 wow fadeInUp">
+                <h5>{{ page.work-presentation-2-title }}</h5>
+                <div class="divider"></div>
+                <h6>{{ page.work-presentation-2-description }}</h6>
+            </div>
+            <div class="col-sm-7 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.work-presentation-2-image }}" alt="{{ page.work-presentation-2-image-alt }}">
+            </div>
+        </div>
+        <!-- Work Presentation 3 -->
+        <div class="row m-top-40">
+            <div class="col-sm-5 wow fadeInUp">
+                <h5>{{ page.work-presentation-3-title }}</h5>
+                <div class="divider"></div>
+                <h6>{{ page.work-presentation-3-description }}</h6>
+            </div>
+            <div class="col-sm-7 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.work-presentation-3-image }}" alt="{{ page.work-presentation-3-image-alt }}">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Work Navigation -->
+                <div class="work-navigation">
+                    <a href="#" class="work-prev">Previous</a>
+                    <a href="#" class="work-all">All Works</a>
+                    <a href="#" class="work-next">Next</a>
+                </div>
+                <!-- End Work Navigation -->
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Single Work -->

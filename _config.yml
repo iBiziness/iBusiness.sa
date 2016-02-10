@@ -9,5 +9,5 @@ markdown: kramdown
 
 collections:
   projects:
-    permalink: /projects/:path/
+    permalink: /project/:path/
     output: true
