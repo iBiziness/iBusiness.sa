@@ -1,7 +1,7 @@
 ---
 layout: project
 title: Swiftli
-category: 
+category: Logistic Services
 project-slogan: Smart Logestic Services
 work-head-image: http://placehold.it/1920x1000
 client: Swiftli

@@ -1,10 +1,10 @@
 ---
 layout: project
 title: Impressions
-category: 
+category: Intelligent Advertising
 project-slogan: Intelligent Integrated Advertising
 work-head-image: http://placehold.it/1920x1000
-client: Impressions Client
+client: Impressions
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com

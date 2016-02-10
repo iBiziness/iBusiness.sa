@@ -1,14 +1,14 @@
 ---
 layout: project
-title: Concept 5
-category: Brand & Identity
-project-slogan: Intelligent Integrated Advertising
+title: Expressions
+category: User Experience Design
+project-slogan: User Experience Design Studio
 work-head-image: http://placehold.it/1920x1000
-client: Impressions Client
+client: Expressions 
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
-description: Impressions is an online advertising service that enables advertisers to reach their niche user-base in an integrated method in e-commerce platforms.
+description: Expressions is a User Experience agency that helps lifestyle inspired companies engage consumers and communicate with users with best practice.
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600
@@ -29,12 +29,12 @@ work-presentation-3-image: http://placehold.it/700x500
 work-presentation-3-image-alt: The Second Part
 
 # Progress
-research: 90
-design: 80
-development: 85
+research: 100
+design: 100
+development: 100
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
 latest-thumbnail: http://placehold.it/500x500
-latest-thumbnail-alt: Concept 5
+latest-thumbnail-alt: Expressions
 ---

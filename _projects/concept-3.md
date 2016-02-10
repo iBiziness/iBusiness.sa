@@ -34,7 +34,7 @@ design: 80
 development: 85
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
+latest: false
 latest-thumbnail: http://placehold.it/500x500
 latest-thumbnail-alt: Concept 5
 ---
