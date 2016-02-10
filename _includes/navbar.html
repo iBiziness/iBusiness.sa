@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a data-scroll class="navbar-brand" href="#intro"><img src="/img/logo.png" alt="iBusiness"></a>
+                <a {% if page.url == "/" %}data-scroll{% endif %} class="navbar-brand" href="/#intro"><img src="/img/logo.png" alt="iBusiness"></a>
             </div>
             <!-- Social Icons -->
             <div class="header-social hidden-sm hidden-xs">
@@ -23,20 +23,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a data-scroll href="#about">About</a></li>
-                    <li><a data-scroll href="#service">Service</a></li>
+                    <li><a {% if page.url == "/" %}data-scroll{% endif %} href="/#about">About</a></li>
+                    <li><a {% if page.url == "/" %}data-scroll{% endif %} href="/#service">Service</a></li>
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for project in site.projects %}
                             {% unless project.latest %}
-                            <li><a data-scroll href="#{{ project.title | slugify }}">{{ project.title }}</a></li>
+                            <li><a data-scroll href="/#{{ project.title | slugify }}">{{ project.title }}</a></li>
                             {% endunless %}
                             {% endfor %}
                         </ul>
                     </li>
-                    <li><a data-scroll href="#contact">Contact</a></li>
+                    <li><a {% if page.url == "/" %}data-scroll{% endif %} href="/#contact">Contact</a></li>
 
                 </ul>
             </div>
