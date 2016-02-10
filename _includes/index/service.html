@@ -16,74 +16,30 @@
             <div class="col-md-12 wow fadeInUp">
                 <!-- Carousel Service Nav -->
                 <div id="sync2" class="owl-carousel">
+                    {% for service in site.data.service %}
                     <div class="service-item">
-                        <i class="ion-ios-lightbulb-outline"></i>
-                        <h1>Research</h1>
+                        <i class="{{ service.icon }}"></i>
+                        <h1>{{ service.title }}</h1>
                     </div>
-                    <div class="service-item">
-                        <i class="ion-ios-monitor-outline"></i>
-                        <h1>Design</h1>
-                    </div>
-                    <div class="service-item">
-                        <i class="ion-ios-color-wand-outline"></i>
-                        <h1>Brand Identity and User Experience</h1>
-                    </div>
-                    <div class="service-item">
-                        <i class="ion-ios-camera-outline"></i>
-                        <h1>Development</h1>
-                    </div>
+                    {% endfor %}
                 </div>
                 <!-- End Carousel Service Nav -->
                 <!-- Carousel Service Content -->
                 <div id="sync1" class="owl-carousel">
-                    <!-- carousel content -->
+                    {% for service in site.data.service %}
                     <div class="service-item">
+                        <!-- carousel content -->
                         <div class="row">
                             <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
+                                <p>{{ service.description1 }}</p>
                             </div>
                             <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
+                                <p>{{ service.description2 }}</p>
                             </div>
                         </div>
                     </div>
                     <!-- end carousel content -->
-                    <!-- carousel content -->
-                    <div class="service-item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end carousel content -->
-                    <!-- carousel content -->
-                    <div class="service-item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end carousel content -->
-                    <!-- carousel content -->
-                    <div class="service-item">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                            <div class="col-md-6">
-                                <p>Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end carousel content -->
+                    {% endfor %}
                 </div>
                 <!-- End Carousel Service Tab -->
             </div>
