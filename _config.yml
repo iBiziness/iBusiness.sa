@@ -32,6 +32,3 @@ collections:
   projects:
     permalink: /projects/:title/
     output: true
-  roadmaps:
-    permalink: /projects/:title/roadmap/
-    output: true

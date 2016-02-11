@@ -16,7 +16,7 @@
             </div>
         </div>
         {% if page.roadmap == true %}
-        <a href="/projects/{{ page.title | slugify }}/roadmap" class="work-btn">View Roadmap</a>
+        <a href="#" class="work-btn" data-toggle="modal" data-target="#roadmap">View Roadmap</a>
         {% endif %}
         <!-- Work Presentation 1 -->
         <div class="row m-top-40">
@@ -88,3 +88,39 @@
     </div>
 </section>
 <!-- End Single Work -->
+
+<!-- Modal -->
+<div class="modal fade" id="roadmap" tabindex="-1" role="dialog" aria-labelledby="roadmapLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="roadmapLabel">Roadmap for {{ page.title }}</h4>
+            </div>
+            <div class="modal-body">
+                <section id="cd-timeline" class="cd-container">
+                    {% for milestone in page.milestones %}
+                    <div class="cd-timeline-block">
+                        <div class="cd-timeline-img cd-picture"{% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}>
+                            <img src="/img/roadmap_icons/{{ milestone.icon }}" alt="Picture">
+                        </div> <!-- cd-timeline-img -->
+
+                        <div class="cd-timeline-content">
+                            <h2>{{ milestone.title }}</h2>
+                            <p>{{ milestone.description }}</p>
+                            {% if milestone.readmore %}
+                            <a href="{{ milestone.readmore }}" class="cd-read-more">Read more</a>
+                            {% endif %}
+                            <span class="cd-date">{{ milestone.date | date: "%-d %B %Y"}}</span>
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+                    {% endfor %}
+                </section>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -8,8 +8,7 @@ Main components
 #cd-timeline {
     position: relative;
     padding: 5em 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    /*margin-top: 2em;*/
 }
 #cd-timeline::before {
     /* this is the vertical line */
@@ -23,7 +22,6 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
     #cd-timeline {
-        margin-top: 5em;
         margin-bottom: 3em;
     }
     #cd-timeline::before {
