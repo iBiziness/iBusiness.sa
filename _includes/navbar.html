@@ -31,7 +31,7 @@
                         <ul class="dropdown-menu">
                             {% for project in site.projects %}
                             {% if project.active %}
-                            <li><a data-scroll href="/#{{ project.title | slugify }}">{{ project.title }}</a></li>
+                            <li class="text-center"><a data-scroll href="/#{{ project.title | slugify }}">{{ project.title }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>

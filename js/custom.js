@@ -47,7 +47,7 @@ $(function () {
 ---------------------------------------------------*/
 
   // Closes the Responsive Menu on Menu Item Click
-  $('.navbar-collapse ul li a').on('click', function () {
+  $(".navbar-collapse ul li a:not([class*='dropdown-toggle'])").on('click', function () {
     $('.navbar-toggle:visible').trigger('click');
   });
 
