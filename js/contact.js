@@ -34,7 +34,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             url: "http://getsimpleform.com/messages/ajax?form_api_token=034751068f0c0812a7e1ea636f37b8a7",
-            dataType: "html",
+            dataType: 'jsonp',
             data: {
                 name: js_name,
                 email: js_email,
@@ -42,8 +42,7 @@ $(document).ready(function () {
                 message: js_message
             },
             success:function(response){
-                console.log("Send mail");
-                $("#main-result").html('<fieldset class="response">'+response+'</fieldset>');
+                $("#main-result").html('<fieldset class="response">'+ "Your inquiry has been sent." +'</fieldset>');
                 $("#main-result").slideDown("slow"); //show Result
                 $("#main-content").hide(); //hide form div slowly
             },
