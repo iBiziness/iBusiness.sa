@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="container">
+    <a href="/projects/{{ page.title | slugify }}/" class="work-btn">Back to {{ page.title }}</a>
     <section id="cd-timeline" class="cd-container">
         {% for milestone in page.milestones %}
         <div class="cd-timeline-block">
