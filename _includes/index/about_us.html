@@ -8,7 +8,9 @@
                 <h3 class="white-text">About us</h3>
                 <div class="divider"></div>
                 <h6>{{ site.about }}</h6>
-                <p>{{ site.mission }}</p>
+                {% for mission in site.mission %}
+                <p>{{ mission | markdownify }}</p>
+                {% endfor %}
             </div>
             <!-- End about text -->
         </div>
