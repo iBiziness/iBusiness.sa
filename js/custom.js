@@ -114,10 +114,10 @@ $(function () {
     });
 
     /*--------------------------------------------------
-     Owl Carousel Clients
+     Owl Carousel partners
      ---------------------------------------------------*/
 
-    $("#owl-clients").owlCarousel({
+    $("#owl-partners").owlCarousel({
         autoPlay: 2000,
         pagination: false,
         items: 4, //4 items above 1000px browser width

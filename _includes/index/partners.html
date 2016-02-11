@@ -1,0 +1,18 @@
+<!-- Start partners -->
+<section id="partners" class="section bg-partners" data-stellar-background-ratio="0.5">
+    <div class="overlay-dark"></div><!-- Overlay Dark -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn">
+                <!-- Carousel partners -->
+                <div id="owl-partners">
+                    {% for partner in site.data.partner %}
+                    <div class="partner"><img src="{{ partner.thumbnail }}" alt="{{ partner.name }}"></div>
+                    {% endfor %}
+                </div>
+                <!-- End Carousel partners -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End partners -->

@@ -114,7 +114,7 @@
 	 * @return {Number}     The element's height
 	 */
 	var getHeight = function (elem) {
-		return Math.max( elem.scrollHeight, elem.offsetHeight, elem.clientHeight );
+		return Math.max( elem.scrollHeight, elem.offsetHeight, elem.partnerHeight );
 	};
 
 	/**
@@ -243,7 +243,7 @@
 		return Math.max(
 			document.body.scrollHeight, document.documentElement.scrollHeight,
 			document.body.offsetHeight, document.documentElement.offsetHeight,
-			document.body.clientHeight, document.documentElement.clientHeight
+			document.body.partnerHeight, document.documentElement.partnerHeight
 		);
 	};
 

@@ -893,8 +893,8 @@ if (typeof Object.create !== "function") {
                     }
                     if (event.pageX === undefined) {
                         return {
-                            x : event.clientX,
-                            y : event.clientY
+                            x : event.partnerX,
+                            y : event.partnerY
                         };
                     }
                 }

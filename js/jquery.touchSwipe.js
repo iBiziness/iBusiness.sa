@@ -1597,8 +1597,8 @@
 			var id = evt.identifier!==undefined ? evt.identifier : 0; 
 			
 			fingerData[index].identifier = id;
-			fingerData[index].start.x = fingerData[index].end.x = evt.pageX||evt.clientX;
-			fingerData[index].start.y = fingerData[index].end.y = evt.pageY||evt.clientY;
+			fingerData[index].start.x = fingerData[index].end.x = evt.pageX||evt.partnerX;
+			fingerData[index].start.y = fingerData[index].end.y = evt.pageY||evt.partnerY;
 			
 			return fingerData[index];
 		}
@@ -1614,8 +1614,8 @@
 			var id = evt.identifier!==undefined ? evt.identifier : 0; 
 			var f = getFingerData( id );
 			
-			f.end.x = evt.pageX||evt.clientX;
-			f.end.y = evt.pageY||evt.clientY;
+			f.end.x = evt.pageX||evt.partnerX;
+			f.end.y = evt.pageY||evt.partnerY;
 			
 			return f;
 		}

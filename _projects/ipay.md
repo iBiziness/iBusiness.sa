@@ -5,7 +5,7 @@ title: iPAY
 category: Payment Solutions
 project-slogan: Integrated Payment Solution
 work-head-image: http://placehold.it/1920x1000
-client: Integrated Payment
+partner: Integrated Payment
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
