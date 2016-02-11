@@ -33,7 +33,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "POST",
-            url: "http://getsimpleform.com/messages/ajax?form_api_token=034751068f0c0812a7e1ea636f37b8a7",
+            url: "http://getsimpleform.com/messages/ajax?form_api_token=2a66ee45f5771081fc61f2340af241cf",
             dataType: 'jsonp',
             data: {
                 name: js_name,
