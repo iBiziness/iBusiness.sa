@@ -10,6 +10,7 @@ date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
 description: iSTORE is all-in-one e-commerce solution that seamless facilitates and optimizes the process of creating an online presence, adding products, managing your inventory, automated logistic fulfillments of orders, and market exposures with high level of security & technical support.
+roadmap: true
 
 # Work Presentation 1
 big-image: http://placehold.it/1280x600

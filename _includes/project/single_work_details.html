@@ -15,7 +15,9 @@
                 <p>{{ page.description }}</p>
             </div>
         </div>
+        {% if page.roadmap == true %}
         <a href="/projects/{{ page.title | slugify }}/roadmap" class="work-btn">View Roadmap</a>
+        {% endif %}
         <!-- Work Presentation 1 -->
         <div class="row m-top-40">
             <div class="col-md-12 wow fadeInUp">
