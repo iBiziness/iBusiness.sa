@@ -48,9 +48,35 @@
             <div class="col-md-12">
                 <!-- Work Navigation -->
                 <div class="work-navigation">
-                    <a href="#" class="work-prev">Previous</a>
-                    <a href="#" class="work-all">All Works</a>
-                    <a href="#" class="work-next">Next</a>
+                    {% for project in site.projects %}
+                    {% if project.title == page.title %}
+                    {% assign index = forloop.index  %}
+                    {% endif %}
+                    {% endfor %}
+                    {% for project in site.projects %}
+                    {% assign previous = index | minus:1  %}
+                    {% if forloop.index == previous %}
+                    <a href="{{ project.url }}" class="work-prev">Previous</a>
+                    {% elsif previous == 0 %}
+                    <a href="{{ site.projects.last.url }}" class="work-prev">Previous</a>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+
+                    <a href="/projects" class="work-all"><span>All Works</span></a>
+
+                    {% for project in site.projects %}
+                    {% assign next = index | plus:1  %}
+                    {% assign projectSize = site.projects | size  %}
+                    {% if forloop.index == next %}
+                    <a href="{{ project.url }}" class="work-next"><span>Next</span></a>
+                    {% elsif index == projectSize %}
+                    {% if next | minus:1 == projectSize %}
+                    <a href="{{ site.projects.first.url }}" class="work-next"><span>Next</span></a>
+                    {% break %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
                 </div>
                 <!-- End Work Navigation -->
             </div>
