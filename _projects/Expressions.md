@@ -41,46 +41,80 @@ latest-thumbnail-alt: Expressions
 
 # Milestones
 milestones:
-  - title: Brainstorming
-    date: 2016-01-18 03:49:55 +0800
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-    icon: cd-icon-location.svg
+- title: Milestone One
+  date: 2016-01-18 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Research
-    date: 2016-01-19 03:49:55 +0800
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-    icon: cd-icon-location.svg
-    icon-bg: "#123456"
+- title: Milestone Two
+  date: 2016-01-19 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+  icon-bg: "#123456"
 
-  - title: Analysis
-    date: 2016-01-20 03:49:55 +0800
-    description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-    icon: cd-icon-location.svg
-    readmore: http://google.com
-    icon-bg: "red"
+- title: Milestone Three
+  date: 2016-01-20 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+  readmore: http://google.com
+  icon-bg: "red"
 
-  - title: Requirements Preparation
-    date: 2016-01-21 03:49:55 +0800
+- title: Brainstorming
+  date: 2016-01-18 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Resource Allocation
-    date: 2016-01-22 03:49:55 +0800
+- title: Research
+  date: 2016-01-19 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+  icon-bg: "#123456"
 
-  - title: Entity Formation
-    date: 2016-01-23 03:49:55 +0800
+- title: Analysis
+  date: 2016-01-20 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+  readmore: http://google.com
+  icon-bg: "red"
 
-  - title: Project Implementation
-    date: 2016-01-24 03:49:55 +0800
+- title: Requirements Preparation
+  date: 2016-01-21 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Quality Evaluation
-    date: 2016-01-25 03:49:55 +0800
+- title: Resource Allocation
+  date: 2016-01-22 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Launch
-    date: 2016-01-26 03:49:55 +0800
+- title: Entity Formation
+  date: 2016-01-23 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Return of Investment
-    date: 2016-01-27 03:49:55 +0800
+- title: Project Implementation
+  date: 2016-01-24 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
-  - title: Vision Implementation
-    date: 2016-01-28 03:49:55 +0800
+- title: Quality Evaluation
+  date: 2016-01-25 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+
+- title: Launch
+  date: 2016-01-26 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+
+- title: Return of Investment
+  date: 2016-01-27 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
+
+- title: Vision Implementation
+  date: 2016-01-28 03:49:55 +0800
+  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
+  icon: cd-icon-location.svg
 
 ---
