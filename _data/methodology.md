@@ -1,0 +1,37 @@
+- title: Idea
+  description: Screening, Evaluation and Selection.
+
+- title: Brainstorming
+  description: Development and Approval.
+
+- title: Research
+  description: Data Collection and Market Research.
+
+- title: Analysis
+  description: Feasibility Study and Practicality Evaluation.
+
+- title: Requirements Preparation
+  description:
+  Specifications, which include UI/UX Design, Technical Specification and Deployment Specification.
+  Documentation, which includes Workflows, Business Plan, Terms and Condition and Privacy Policy.
+
+- title: Resource Allocation
+  description: Seeking investors and contractors.
+
+- title: Entity Formation
+  description: Equity Distribution, Legal Representation and Copy write and Trademark.
+
+- title: Project Implementation
+  description: Employment, Development, Deployment and Training.
+
+- title: Quality Evaluation
+  description: Testing and fixing issues.
+
+- title: Launch
+  description: Beta, Management Guidelines, Marketing campaign and Live.
+
+- title: Return of Investment
+  description: Quarterly Reports and Dividend Distribution.
+
+- title: Vision Implementation
+  description: Another One!
