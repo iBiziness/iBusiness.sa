@@ -1,0 +1,18 @@
+<!-- Start Clients -->
+<section id="clients" class="section bg-clients" data-stellar-background-ratio="0.5">
+    <div class="overlay-dark"></div><!-- Overlay Dark -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeIn">
+                <!-- Carousel Clients -->
+                <div id="owl-clients">
+                    {% for client in site.data.client %}
+                    <div class="client"><img src="{{ client.thumbnail }}" alt="{{ client.name }}"></div>
+                    {% endfor %}
+                </div>
+                <!-- End Carousel Clients -->
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Clients -->

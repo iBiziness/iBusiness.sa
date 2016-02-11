@@ -1,17 +1,18 @@
-- name: partner 1
+- name: Client 1
   thumbnail: http://placehold.it/240x240
 
-- name: partner 2
+- name: Client 2
   thumbnail: http://placehold.it/240x240
 
-- name: partner 3
+- name: Client 3
   thumbnail: http://placehold.it/240x240
 
-- name: partner 4
+- name: Client 4
   thumbnail: http://placehold.it/240x240
 
-- name: partner 5
+- name: Client 5
   thumbnail: http://placehold.it/240x240
 
-- name: partner 6
+- name: Client 6
   thumbnail: http://placehold.it/240x240
+

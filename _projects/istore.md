@@ -5,7 +5,7 @@ title: iSTORE
 category: E-Commerce Infrastructure
 project-slogan: Intelligent E-Commerce Solution
 work-head-image: http://placehold.it/1920x1000
-partner: Intelligent Store
+client: Intelligent Store
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
 website-url: http://www.example.com
