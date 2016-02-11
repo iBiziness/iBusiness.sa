@@ -1,15 +1,15 @@
-- title: Happy Clients
+- title: Points of Integration
   count: 958
   suffix:
 
-- title: Facebook Likes
+- title: Points of Sale
   count: 105
-  suffix: K
+  suffix: 
 
-- title: Awards
-  count: 60
+- title: Couriers
+  count: 5000
   suffix:
 
-- title: Retweets
+- title: Orders
   count: 1362
   suffix:
