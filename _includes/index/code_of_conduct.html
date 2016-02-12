@@ -1,0 +1,21 @@
+<!-- Start projects -->
+{% for code_of_conduct in site.data.code_of_conduct %}
+<!-- Start {{ project.title }} -->
+<section id="code_of_conduct" class="section" data-stellar-background-ratio="0.5">
+
+    <div class="container">
+        <div class="row">
+            <!-- about text -->
+            <div class="col-md-12 wow fadeInUp">
+                <h3 class="black-text">{{ code_of_conduct.title }}</h3>
+                <div class="divider"></div>
+                <h6>{{ code_of_conduct.description }}</h6>
+                <p>{{ code_of_conduct.description }}</p>
+            </div>
+            <!-- End about text -->
+        </div>
+    </div>
+</section>
+<!-- End {{ project.title }} -->
+{% endfor %}
+<!-- End projects -->
