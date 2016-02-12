@@ -1,5 +1,5 @@
 <!-- Start Service -->
-<section id="service" class="section">
+<section id="future_service" class="section">
     <div class="container">
         <!-- Section Title -->
         <div class="row m-bottom-100">
@@ -17,7 +17,7 @@
                 <!-- Carousel Service Nav -->
                 <div id="sync4" class="owl-carousel">
                     {% for service in site.data.service %}
-                    {% if service.future_service %}
+                    {% if service.future_service == true %}
                     <div class="service-item">
                         <i class="{{ service.icon }}"></i>
                         <h1>{{ service.title }}</h1>
@@ -29,7 +29,7 @@
                 <!-- Carousel Service Content -->
                 <div id="sync3" class="owl-carousel">
                     {% for service in site.data.service %}
-                    {% if service.future_service %}
+                    {% if service.future_service == true %}
                     <div class="service-item">
                         <!-- carousel content -->
                         <div class="row">
