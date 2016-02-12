@@ -22,6 +22,7 @@
   icon: ion-ios-compose-outline
   description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
   description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true
 
 - title: Project Implementation
   icon: ion-code-working
@@ -32,8 +33,10 @@
   icon: ion-ios-checkmark-outline
   description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
   description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true
 
 - title: Product Launching
   icon: ion-ios-bolt-outline
   description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
   description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true

@@ -17,19 +17,19 @@
                 <!-- Carousel Service Nav -->
                 <div id="sync2" class="owl-carousel">
                     {% for service in site.data.service %}
-                    {% unless service.future_service %}
+                    {% if service.future_service %}
                     <div class="service-item">
                         <i class="{{ service.icon }}"></i>
                         <h1>{{ service.title }}</h1>
                     </div>
-                    {% endunless %}
+                    {% endif %}
                     {% endfor %}
                 </div>
                 <!-- End Carousel Service Nav -->
                 <!-- Carousel Service Content -->
                 <div id="sync1" class="owl-carousel">
                     {% for service in site.data.service %}
-                    {% unless service.future_service %}
+                    {% if service.future_service %}
                     <div class="service-item">
                         <!-- carousel content -->
                         <div class="row">
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <!-- end carousel content -->
-                    {% endunless %}
+                    {% endif %}
                     {% endfor %}
                 </div>
                 <!-- End Carousel Service Tab -->
