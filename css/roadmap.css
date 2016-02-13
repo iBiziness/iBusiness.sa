@@ -87,8 +87,8 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
     .cd-timeline-img {
-        width: 60px;
-        height: 60px;
+        width: 100px;
+        height: 100px;
         left: 50%;
         margin-left: -50px;
         /* Force Hardware Acceleration in WebKit */
