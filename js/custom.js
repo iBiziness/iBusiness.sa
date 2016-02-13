@@ -174,10 +174,9 @@ $(function () {
             var number = $(this).data("owlItem");
             sync1.trigger("owl.goTo", number);
         });
-        
+
         function center(number) {
             var sync2visible = sync2.data("owlCarousel").owl.visibleItems;
-            var sync4visible = sync4.data("owlCarousel").owl.visibleItems;
             var num = number;
             var found = false;
             for (var i in sync2visible) {
