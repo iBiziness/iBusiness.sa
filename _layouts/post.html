@@ -1,0 +1,72 @@
+<!-- Start News Post -->
+<section id="news-post" class="section">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-100">
+            <div class="col-md-6">
+                <h3>{{ post.title }}</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="col-md-6">
+                <h6>{{ post.headline }}</h6>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row">
+            <!-- news details -->
+            <div class="col-md-3 wow fadeInUp">
+                <div class="news-detail">
+                    <p><strong>Posted on:</strong>{{ post.date }}</p>
+                    <p><strong>Author:</strong>{{ post.author }}</p>
+                    <p><strong>Share:</strong><a href="#">Facebook</a> / <a href="#">Twitter</a> / <a href="#">Google+</a></p>
+                </div>
+            </div>
+            <!-- end news details -->
+            <!-- images + text news -->
+            <div class="col-md-9 wow fadeInUp" data-wow-delay="0.2s">
+                <p><img class="img-responsive" src="{{ post.image }}" alt=""></p>
+                <br>
+                <p>{{ content | markdownify }}</p>
+            </div>
+            <!-- end images + text news -->
+        </div>
+        <div class="row">
+            <!-- Page Navigation -->
+            <div class="col-md-12 wow fadeInUp">
+              <div class="page-navigation">
+                  {% for post in site.posts %}
+                  {% if post.title == page.title %}
+                  {% assign index = forloop.index  %}
+                  {% endif %}
+                  {% endfor %}
+                  {% for post in site.posts %}
+                  {% assign previous = index | minus:1  %}
+                  {% if forloop.index == previous %}
+                  <a href="{{ post.url }}" class="work-prev">Previous</a>
+                  {% elsif previous == 0 %}
+                  <a href="{{ site.posts.last.url }}" class="work-prev">Previous</a>
+                  {% break %}
+                  {% endif %}
+                  {% endfor %}
+
+                  <a href="/news" class="work-all"><span>All Posts</span></a>
+
+                  {% for post in site.posts %}
+                  {% assign next = index | plus:1  %}
+                  {% assign postSize = site.posts | size  %}
+                  {% if forloop.index == next %}
+                  <a href="{{ post.url }}" class="work-next"><span>Next</span></a>
+                  {% elsif index == postSize %}
+                  {% if next | minus:1 == postSize %}
+                  <a href="{{ site.posts.first.url }}" class="work-next"><span>Next</span></a>
+                  {% break %}
+                  {% endif %}
+                  {% endif %}
+                  {% endfor %}
+              </div>
+            </div>
+            <!-- End Page Navigation -->
+        </div>
+    </div>
+</section>
+<!-- End News Post -->
