@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a {% if page.url == "/" %}data-scroll{% endif %} class="navbar-brand" href="/#intro"><img src="/img/logo.png" alt="iBusiness"></a>
+                <a {% if page.url == "/" %}data-scroll{% endif %} class="navbar-brand" href="/"><img src="/img/logo.png" alt="iBusiness"></a>
             </div>
             <!-- Social Icons -->
             <div class="header-social hidden-sm hidden-xs">
@@ -31,7 +31,7 @@
                         <ul class="dropdown-menu">
                             {% for project in site.projects %}
                             {% if project.active %}
-                            <li class="text-center"><a data-scroll href="/{{ project.title | slugify }}">{{ project.title }}</a></li>
+                            <li class="text-center"><a data-scroll href="/projects/{{ project.title | slugify }}">{{ project.title }}</a></li>
                             {% endif %}
                             {% endfor %}
                         </ul>
