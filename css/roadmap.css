@@ -66,7 +66,7 @@ Main components
     border-radius: 50%;
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
-.cd-timeline-img img {
+.cd-methodology-img img {
     display: block;
     width: 60px;
     height: 60px;
@@ -75,6 +75,16 @@ Main components
     top: 50%;
     margin-left: -30px;
     margin-top: -30px;
+}
+.cd-timeline-img img {
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -18px;
+    margin-top: -18px;
 }
 .cd-timeline-img.cd-picture {
     background: #75ce66;
@@ -86,7 +96,7 @@ Main components
     background: #f0ca45;
 }
 @media only screen and (min-width: 1170px) {
-    .cd-timeline-img {
+    .cd-methodology-img {
         width: 100px;
         height: 100px;
         left: 50%;
@@ -95,6 +105,16 @@ Main components
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
+    .cd-timeline-img {
+        width: 60px;
+        height: 60px;
+        left: 50%;
+        margin-left: -30px;
+        /* Force Hardware Acceleration in WebKit */
+        -webkit-transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+    }
+
     .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden;
     }
