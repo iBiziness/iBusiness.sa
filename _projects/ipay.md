@@ -1,6 +1,7 @@
 ---
 layout: project
 featured: true
+priority: 3
 title: iPAY
 category: Payment Solutions
 headline: Integrated Payment Solution
