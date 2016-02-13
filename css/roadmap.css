@@ -61,20 +61,20 @@ Main components
     position: absolute;
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 24px;
+    height: 24px;
     position: relative;
     left: 50%;
     top: 50%;
-    margin-left: -30px;
-    margin-top: -30px;
+    margin-left: -12px;
+    margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
     background: #75ce66;
@@ -87,13 +87,19 @@ Main components
 }
 @media only screen and (min-width: 1170px) {
     .cd-timeline-img {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
         left: 50%;
-        margin-left: -50px;
+        margin-left: -38px;
         /* Force Hardware Acceleration in WebKit */
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
+    }
+    .cd-timeline-img img {
+        width: 36px;
+        height: 36px;
+        margin-left: -18px;
+        margin-top: -18px;
     }
     .cssanimations .cd-timeline-img.is-hidden {
         visibility: hidden;
