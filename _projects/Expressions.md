@@ -20,7 +20,7 @@ big-image-alt: Impressions
 work-presentation-2-title: The Brand
 work-presentation-2-description: >
     Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://placehold.it/700x500
+work-presentation-2-image: http://ib.sa/img/500x500_Expressions.jpg
 work-presentation-2-image-alt: Brand
 
 # Work Presentation 3
@@ -36,7 +36,7 @@ design: 100
 development: 100
 
 # Latest (Add these part if you want it to show on latest works)
-featured-thumbnail: http://placehold.it/500x500
+featured-thumbnail: http://ib.sa/img/500x500_Expressions.png
 featured-thumbnail-alt: Expressions
 
 # Milestones

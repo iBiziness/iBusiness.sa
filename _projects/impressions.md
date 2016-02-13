@@ -37,7 +37,7 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-featured-thumbnail: http://placehold.it/500x500
+featured-thumbnail: http://ib.sa/img/500x500_Impressions.png
 featured-thumbnail-alt: Impressions
 
 # Milestones
