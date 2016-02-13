@@ -77,6 +77,16 @@ Main components
     margin-left: -18px;
     margin-top: -18px;
 }
+.cd-methodology-img img {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+}
 .cd-timeline-img.cd-picture {
     background: #75ce66;
 }
@@ -85,16 +95,6 @@ Main components
 }
 .cd-timeline-img.cd-location {
     background: #f0ca45;
-}
-.cd-timeline-img.cd-methodology img {
-  display: block;
-  width: 100px;
-  height: 100px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -50px;
-  margin-top: -50px;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -107,7 +107,7 @@ Main components
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
     }
-    .cd-timeline-img.cd-methodology {
+    .cd-methodology-img {
         width: 100px;
         height: 100px;
         left: 50%;
