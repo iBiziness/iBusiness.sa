@@ -20,7 +20,7 @@ big-image-alt: Impressions
 work-presentation-2-title: The Brand
 work-presentation-2-description: >
     Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://ib.sa/img/500x500_Expressions.jpg
+work-presentation-2-image: http://ib.sa/img/500x500_Expressions.png
 work-presentation-2-image-alt: Brand
 
 # Work Presentation 3
