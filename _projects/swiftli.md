@@ -37,8 +37,8 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-latest-thumbnail: http://placehold.it/500x500
-latest-thumbnail-alt: Swiftli
+featured-thumbnail: http://placehold.it/500x500
+featured-thumbnail-alt: Swiftli
 
 # Milestones
 milestones:

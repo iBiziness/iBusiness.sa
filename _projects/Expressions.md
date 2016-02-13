@@ -36,8 +36,8 @@ design: 100
 development: 100
 
 # Latest (Add these part if you want it to show on latest works)
-latest-thumbnail: http://placehold.it/500x500
-latest-thumbnail-alt: Expressions
+featured-thumbnail: http://placehold.it/500x500
+featured-thumbnail-alt: Expressions
 
 # Milestones
 milestones:

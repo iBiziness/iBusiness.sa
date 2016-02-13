@@ -37,8 +37,8 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-latest-thumbnail: http://placehold.it/500x500
-latest-thumbnail-alt: iSTORE
+featured-thumbnail: http://ib.sa/img/500x500_iStore.jpg
+featured-thumbnail-alt: iSTORE
 
 # Milestones
 milestones:
