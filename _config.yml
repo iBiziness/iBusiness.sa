@@ -1,4 +1,5 @@
 # Site settings
+gems: [jekyll-paginate]
 title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
   Creative group of entrepreneurs specializing in all forms of information media
@@ -30,3 +31,8 @@ collections:
   projects:
     permalink: /projects/:title/
     output: true
+
+# News
+permalink: /news/:categories/:title
+paginate_path: "/news/:num/"
+paginate: 6
