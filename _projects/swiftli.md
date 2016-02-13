@@ -4,7 +4,7 @@ featured: true
 title: Swiftli
 category: Logistic Services
 headline: Smart Logestic Services
-headline-image: http://placehold.it/1920x1000
+headline-image: http://ib.sa/img/1920_swiftli.png
 client: Swiftli
 date: 2016-01-18 03:49:55 +0800
 website: Swiftli.io

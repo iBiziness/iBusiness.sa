@@ -4,7 +4,7 @@ featured: true
 title: iPAY
 category: Payment Solutions
 headline: Integrated Payment Solution
-headline-image: http://placehold.it/1920x1000
+headline-image: http://ib.sa/img/ipay.png
 client: Integrated Payment
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com

@@ -4,7 +4,7 @@ featured: true
 title: Expressions
 category: User Experience Design
 headline: User Experience Design Studio
-headline-image: http://placehold.it/1920x1000
+headline-image: http://ib.sa/img/1920_expressions.png
 client: Expressions
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com

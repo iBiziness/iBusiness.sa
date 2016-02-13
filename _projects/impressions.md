@@ -4,7 +4,7 @@ featured: true
 title: Impressions
 category: Intelligent Advertising
 headline: Intelligent Integrated Advertising
-headline-image: http://placehold.it/1920x1000
+headline-image: http://ib.sa/img/1920_impressions.png
 client: Impressions
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
