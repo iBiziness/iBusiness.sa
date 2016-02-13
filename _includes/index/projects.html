@@ -16,7 +16,7 @@
             <!-- Project Grid -->
             <div id="grid-items" data-columns>
                 {% for project in site.projects %}
-                {% if project.active %}
+                {% if project.featured %}
                 <!-- start work item -->
                 <a href="{{ project.url }}">
                     <div class="work-item">

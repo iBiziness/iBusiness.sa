@@ -30,7 +30,7 @@
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             {% for project in site.projects %}
-                            {% if project.active %}
+                            {% if project.featured %}
                             <li class="text-center"><a href="{{ project.url }}">{{ project.title }}</a></li>
                             {% endif %}
                             {% endfor %}
