@@ -18,6 +18,7 @@
         {% if page.roadmap == true %}
         <a href="#" class="work-btn" data-toggle="modal" data-target="#roadmap">View Roadmap {{ page.milestones.size }}</a>
         {% endif %}
+        {% include project/roadmap_embedded.html %}
         <!-- Work Presentation 1 -->
         <div class="row m-top-40">
             <div class="col-md-12 wow fadeInUp">
@@ -88,5 +89,3 @@
     </div>
 </section>
 <!-- End Single Work -->
-
-{% include project/roadmap_embedded.html %}
