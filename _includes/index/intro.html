@@ -7,19 +7,23 @@
     <!-- Slide -->
     <div id="slides">
         <ul class="slides-container">
+{% for project in site.projects %}
+{% if project.featured %}
             <!-- slide item -->
             <li>
-                <img src="http://placehold.it/1920x1000" alt="" data-stellar-ratio="0.4">
+                <img src="{{ project.headline_image }}" alt="" data-stellar-ratio="0.4">
                 <div class="caption-wrapper">
                     <div class="slide-caption">
                         <a href="#">
-                            <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">Simple Style</h1>
+                            <h1 class="wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.6s">{{ project.title }}</h1>
                         </a>
-                        <h6 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">Sed dolor mi, volutpat quis tristique sit amet, varius quis justo.</h6>
+                        <h6 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">{{ project.headline }}</h6>
                     </div>
                 </div>
             </li>
             <!-- end slide item -->
+{% endif %}
+{% endfor %}
             <!-- slide item -->
             <li>
                 <img src="http://placehold.it/1920x1000" alt="" data-stellar-ratio="0.4">
