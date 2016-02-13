@@ -15,10 +15,6 @@
                 <p>{{ page.description }}</p>
             </div>
         </div>
-        {% if page.roadmap == true %}
-        <a href="#" class="work-btn" data-toggle="modal" data-target="#roadmap">View Roadmap {{ page.milestones.size }}</a>
-        {% endif %}
-        {% include project/roadmap_embedded.html %}
         <!-- Work Presentation 1 -->
         <div class="row m-top-40">
             <div class="col-md-12 wow fadeInUp">
@@ -47,7 +43,10 @@
                 <img class="img-responsive" src="{{ page.work-presentation-3-image }}" alt="{{ page.work-presentation-3-image-alt }}">
             </div>
         </div>
-
+        {% if page.milestones.size > 0 %}
+        <a href="#" class="work-btn" data-toggle="#roadmap" data-target="#roadmap">Roadmap</a>
+        {% include project/roadmap_embedded.html %}
+        {% endif %}
         <div class="row">
             <div class="col-md-12">
                 <!-- Work Navigation -->

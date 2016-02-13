@@ -1,20 +1,22 @@
 <!-- Embedded Roadmap -->
-<section id="cd-timeline" class="cd-container">
-    {% for milestone in page.milestones %}
-    <div class="cd-timeline-block">
-        <div class="cd-timeline-img cd-picture"{% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}>
-            <img src="/img/roadmap_icons/{{ milestone.icon }}" alt="Picture">
-        </div> <!-- cd-timeline-img -->
+<div id="roadmap">
+  <section id="cd-timeline" class="cd-container">
+      {% for milestone in page.milestones %}
+      <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"{% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}>
+              <img src="/img/roadmap_icons/{{ milestone.icon }}" alt="Picture">
+          </div> <!-- cd-timeline-img -->
 
-        <div class="cd-timeline-content">
-            <h2>{{ milestone.title }}</h2>
-            <p>{{ milestone.description }}</p>
-            {% if milestone.readmore %}
-            <a href="{{ milestone.readmore }}" class="cd-read-more">Read more</a>
-            {% endif %}
-            <span class="cd-date">{{ milestone.date | date: "%-d %B %Y"}}</span>
-        </div> <!-- cd-timeline-content -->
-    </div>
-    {% endfor %}
-</section>
+          <div class="cd-timeline-content">
+              <h2>{{ milestone.title }}</h2>
+              <p>{{ milestone.description }}</p>
+              {% if milestone.readmore %}
+              <a href="{{ milestone.readmore }}" class="cd-read-more">Read more</a>
+              {% endif %}
+              <span class="cd-date">{{ milestone.date | date: "%-d %B %Y"}}</span>
+          </div> <!-- cd-timeline-content -->
+      </div>
+      {% endfor %}
+  </section>
+</div>
 <!-- End Embedded Roadmap -->
