@@ -2,7 +2,7 @@
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
         <div class="cd-timeline-block">
-            <div class="cd-methodology-img cd-picture"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}>
+            <div class="cd-methodology-img"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}>
                 <img src="/img/methodology_icons/{{ methodology.icon }}" alt="Picture">
             </div> <!-- cd-timeline-img -->
 
