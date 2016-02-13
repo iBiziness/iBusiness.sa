@@ -4,44 +4,44 @@
 
 - title: Brainstorming
   description: Development and Approval.
-  icon: brain_storm.png
+  icon: brainstorm.svg
 
 - title: Research
   description: Data Collection and Market Research.
-  icon: market_research.png
+  icon: market_research.svg
 
 - title: Analysis
   description: Feasibility Study and Practicality Evaluation.
-  icon: analysis.png
+  icon: analysis.svg
 
 - title: Requirements Preparation
   description: Specifications, which include UI/UX Design, Technical Specification and Deployment Specification. Documentation, which includes Workflows, Business Plan, Terms and Condition and Privacy Policy.
-  icon: requirements.png
+  icon: requirements.svg
 
 - title: Resource Allocation
   description: Seeking investors and contractors.
-  icon: resource.png
+  icon: resource.svg
 
 - title: Entity Formation
   description: Equity Distribution, Legal Representation and Copy write and Trademark.
-  icon: entity.png
+  icon: entity.svg
 
 - title: Project Implementation
   description: Employment, Development, Deployment and Training.
-  icon: project_implementation.png
+  icon: project_implementation.svg
 
 - title: Quality Evaluation
   description: Testing and fixing issues.
-  icon: quality_evaluation.png
+  icon: quality_evaluation.svg
 
 - title: Launch
   description: Beta, Management Guidelines, Marketing campaign and Live.
-  icon: launch.png
+  icon: launch.svg
 
 - title: Return of Investment
   description: Quarterly Reports and Dividend Distribution.
-  icon: roi.png
+  icon: roi.svg
 
 - title: Vision Implementation
   description: Another One!
-  icon: vision.png
+  icon: vision.svg
