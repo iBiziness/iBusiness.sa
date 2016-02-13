@@ -384,3 +384,8 @@ Main components
     }
 }
 
+@media (max-width: 400px) {
+    .cd-timeline-content h2 {
+        font-size: 2rem;
+    }
+}
