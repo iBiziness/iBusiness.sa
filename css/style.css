@@ -34,7 +34,7 @@ URL:            http://francescolepere.com
 
 
 /*--------------------------------------------------
-    01. General Styles 
+    01. General Styles
 ---------------------------------------------------*/
 
 body, html {
@@ -54,7 +54,7 @@ body {
 a {
     color: #9e9b7e;
     text-decoration: none;
-    
+
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
@@ -83,7 +83,7 @@ a:active {
 
 
 /*--------------------------------------------------
-    02. Custom Button 
+    02. Custom Button
 ---------------------------------------------------*/
 
 .btn-main {
@@ -97,7 +97,7 @@ a:active {
     letter-spacing: 2px;
     color: #0f0f0f;
     border-radius: 0;
-    
+
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
@@ -129,7 +129,7 @@ a:active {
 
 
 /*--------------------------------------------------
-    03. Typography 
+    03. Typography
 ---------------------------------------------------*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -219,7 +219,7 @@ blockquote p {
     font-style: normal;
 }
 
-blockquote footer {    
+blockquote footer {
     font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
@@ -298,7 +298,7 @@ blockquote footer {
     width: 100%;
     height: 100%;
     z-index: 0;
-  
+
     background: rgba(238,238,238,1);
     background: -moz-linear-gradient(left, rgba(238,238,238,1) 0%, rgba(238,238,238,0) 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, rgba(238,238,238,1)), color-stop(100%, rgba(238,238,238,0)));
@@ -311,7 +311,7 @@ blockquote footer {
 
 
 /*--------------------------------------------------
-    06. Navigation 
+    06. Navigation
 ---------------------------------------------------*/
 
 .navbar { border: 0; }
@@ -322,7 +322,7 @@ blockquote footer {
     padding-right: 35px;
     background-color: #fcfcfc;
     border-color: transparent;
-    
+
     -webkit-transition: all 0.3s ease-in-out;
        -moz-transition: all 0.3s ease-in-out;
          -o-transition: all 0.3s ease-in-out;
@@ -386,7 +386,7 @@ blockquote footer {
 
 .header-social {
     float: right;
-    margin: 15px 0;	
+    margin: 15px 0;
 }
 
 .social-icons {
@@ -403,14 +403,14 @@ blockquote footer {
     width: 40px;
     padding: 0px;
     border-right: 1px solid #9e9b7e;
-    text-align: center;	
+    text-align: center;
 }
 
 .social-icons li:last-child {
     border: 0;
 }
 
-.social-icons a:hover, .social-icons a:active, .social-icons a:focus {	
+.social-icons a:hover, .social-icons a:active, .social-icons a:focus {
 }
 
 
@@ -576,7 +576,7 @@ blockquote footer {
     width: 200px;
     height: 40px;
     background-color: transparent;
-  
+
     -webkit-transition: all 0.15s ease;
        -moz-transition: all 0.15s ease;
          -o-transition: all 0.15s ease;
@@ -592,7 +592,7 @@ blockquote footer {
 .slides-navigation a.prev {
     border-bottom: 1px solid #9e9b7e;
     margin: 0 0 0 -80px;
-  
+
 }
 
 .slides-navigation a.next {
@@ -655,7 +655,7 @@ blockquote footer {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-  
+
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -731,7 +731,7 @@ blockquote footer {
 .work-item img {
     width: 100%;
 }
- 
+
 .work-item {
     margin-bottom: 30px;
     position: relative;
@@ -755,7 +755,7 @@ blockquote footer {
     z-index: 3;
     filter: alpha(opacity=0);
     opacity: 0;
-  
+
     -webkit-transition: opacity 0.6s ease;
        -moz-transition: opacity 0.6s ease;
          -o-transition: opacity 0.6s ease;
@@ -767,7 +767,7 @@ blockquote footer {
     top: 15px;
     left: 25px;
     right: 25px;
-    font-size: 12px; 
+    font-size: 12px;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -782,7 +782,7 @@ blockquote footer {
     right: 25px;
     filter: alpha(opacity=0);
     opacity: 0;
-  
+
     -webkit-transition: all 0.6s ease;
        -moz-transition: all 0.6s ease;
          -o-transition: all 0.6s ease;
@@ -825,7 +825,7 @@ blockquote footer {
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
-  
+
     -webkit-transition: all 0.15s ease;
        -moz-transition: all 0.15s ease;
          -o-transition: all 0.15s ease;
@@ -849,7 +849,7 @@ blockquote footer {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-  
+
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -866,12 +866,12 @@ blockquote footer {
     letter-spacing: 2px;
 }
 
-.work-detail p { 
+.work-detail p {
     padding: 4px 0;
     margin: 0;
 }
 
-.work-detail p strong { 
+.work-detail p strong {
 	width: 100px;
     display: inline-block;
 }
@@ -903,8 +903,8 @@ blockquote footer {
     border-bottom: 1px solid #9e9b7e;
 }
 
-.work-navigation a:hover { 
-    color: #0f0f0f; 
+.work-navigation a:hover {
+    color: #0f0f0f;
     -webkit-box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
        -moz-box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
             box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
@@ -939,7 +939,7 @@ blockquote footer {
     background: url('http://placehold.it/1980x1000');
     background-attachment: fixed;
     background-position: 50% 0;
-  
+
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -977,7 +977,7 @@ blockquote footer {
     cursor: pointer;
     filter: alpha(opacity=40);
     opacity: 0.4;
-    
+
     -webkit-transition: all 0.15s ease;
        -moz-transition: all 0.15s ease;
          -o-transition: all 0.15s ease;
@@ -1039,7 +1039,7 @@ blockquote footer {
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-  
+
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -1107,13 +1107,13 @@ blockquote footer {
     text-align: center;
     border-top: 5px solid #9e9b7e;
     background-color: #fcfcfc;
-  
+
     -webkit-transition: all .3s ease;
        -moz-transition: all .3s ease;
         -ms-transition: all .3s ease;
          -o-transition: all .3s ease;
             transition: all .3s ease;
-  
+
     -webkit-transform: translateY(100%);
        -moz-transform: translateY(100%);
         -ms-transform: translateY(100%);
@@ -1164,7 +1164,7 @@ blockquote footer {
 .news-list-item img {
     width: 100%;
 }
- 
+
 .news-list-item {
     margin: 15px 0;
     position: relative;
@@ -1188,7 +1188,7 @@ blockquote footer {
     z-index: 3;
     filter: alpha(opacity=100);
     opacity: 1;
-  
+
     -webkit-transition: opacity 0.6s ease;
        -moz-transition: opacity 0.6s ease;
          -o-transition: opacity 0.6s ease;
@@ -1200,7 +1200,7 @@ blockquote footer {
     top: 15px;
     left: 25px;
     right: 25px;
-    font-size: 12px; 
+    font-size: 12px;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -1215,7 +1215,7 @@ blockquote footer {
     right: 25px;
     filter: alpha(opacity=100);
     opacity: 1;
-  
+
     -webkit-transition: all 0.6s ease;
        -moz-transition: all 0.6s ease;
          -o-transition: all 0.6s ease;
@@ -1264,8 +1264,8 @@ blockquote footer {
     border-bottom: 1px solid #9e9b7e;
 }
 
-.page-navigation a:hover { 
-    color: #0f0f0f; 
+.page-navigation a:hover {
+    color: #0f0f0f;
     -webkit-box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
        -moz-box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
             box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
@@ -1301,7 +1301,7 @@ blockquote footer {
     letter-spacing: 2px;
 }
 
-.news-detail p { 
+.news-detail p {
     padding:10px 0;
     margin: 0;
 }
@@ -1495,11 +1495,11 @@ label input, textarea{
 
 .bg-footer {
     position: relative;
-    background-image: url('http://placehold.it/1980x1000');
+    background-image: url('http://ib.sa/img/ib_pattern_white.png');
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
-  
+
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
