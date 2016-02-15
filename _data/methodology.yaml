@@ -2,6 +2,7 @@
   description: Screening, Evaluation and Selection.
   icon: idea.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Brainstorming
   description: >
@@ -13,55 +14,66 @@
     Value of proposition
     Penetration strategy
     Vision
-    icon: brainstorm.svg
-    icon-bg: "#E8E8E8"
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Research
   description: Data Collection and Market Research.
   icon: market_research.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Analysis
   description: Feasibility Study and Practicality Evaluation.
   icon: analysis.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Requirements Preparation
   description: Specifications, which include UI/UX Design, Technical Specification and Deployment Specification. Documentation, which includes Workflows, Business Plan, Terms and Condition and Privacy Policy.
   icon: requirements.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Resource Allocation
   description: Seeking investors and contractors.
   icon: resource.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Entity Formation
   description: Equity Distribution, Legal Representation and Copy write and Trademark.
   icon: entity.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Project Implementation
   description: Employment, Development, Deployment and Training.
   icon: project_implementation.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Quality Evaluation
   description: Testing and fixing issues.
   icon: quality_evaluation.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Launch
   description: Beta, Management Guidelines, Marketing campaign and Live.
   icon: launch.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Return of Investment
   description: Quarterly Reports and Dividend Distribution.
   icon: roi.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
 
 - title: Vision Implementation
   description: Another One!
   icon: vision.svg
   icon-bg: "#E8E8E8"
+  icon-size: large

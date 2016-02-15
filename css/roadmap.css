@@ -76,25 +76,25 @@ Main components
   margin-left: -12px;
   margin-top: -12px;
 }
-.cd-methodology-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+
+/* Sizes */
+
+@media only screen and (min-width: 1170px) {
+    .cd-timeline-img.large {
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
+    .large img {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+        margin-top: -30px;
+    }
 }
-.cd-methodology-img img {
-  display: block;
-  width: 60px;
-  height: 60px;
-  position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -30px;
-  margin-top: -30px;
-}
+
+/* End Sizes */
+
 .cd-timeline-img.cd-picture {
     background: #75ce66;
 }
@@ -125,25 +125,6 @@ Main components
         -moz-animation: cd-bounce-1 0.6s;
         animation: cd-bounce-1 0.6s;
     }
-    .cd-methodology-img {
-      width: 100px;
-      height: 100px;
-      left: 50%;
-      margin-left: -50px;
-      /* Force Hardware Acceleration in WebKit */
-      -webkit-transform: translateZ(0);
-      -webkit-backface-visibility: hidden;
-    }
-
-      .cssanimations .cd-methodology-img.is-hidden {
-          visibility: hidden;
-      }
-      .cssanimations .cd-methodology-img.bounce-in {
-          visibility: visible;
-          -webkit-animation: cd-bounce-1 0.6s;
-          -moz-animation: cd-bounce-1 0.6s;
-          animation: cd-bounce-1 0.6s;
-      }
 }
 
 @-webkit-keyframes cd-bounce-1 {
