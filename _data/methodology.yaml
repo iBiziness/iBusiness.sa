@@ -4,16 +4,17 @@
   icon-bg: "#E8E8E8"
 
 - title: Brainstorming
-  description: >Development, Idea Maturity
-Mission
-Innovation and full potential
-Business model
-Money cycle
-Value of proposition
-Penetration strategy
-Vision
-  icon: brainstorm.svg
-  icon-bg: "#E8E8E8"
+  description: >
+    Development, Idea Maturity
+    Mission
+    Innovation and full potential
+    Business model
+    Money cycle
+    Value of proposition
+    Penetration strategy
+    Vision
+    icon: brainstorm.svg
+    icon-bg: "#E8E8E8"
 
 - title: Research
   description: Data Collection and Market Research.

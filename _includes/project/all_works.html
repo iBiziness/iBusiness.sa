@@ -15,7 +15,8 @@
         <div class="row wow fadeInUp">
             <!-- Project Grid -->
             <div id="grid-items" data-columns>
-                {% for project in site.projects %}
+                {% assign projects = site.projects | sort:"priority"  %}
+                {% for project in projects %}
                 <!-- start work item -->
                 <a href="{{ project.url }}">
                     <div class="work-item">
