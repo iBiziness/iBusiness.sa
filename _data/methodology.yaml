@@ -9,6 +9,7 @@
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   icon-size: large
+  sub-items: true
 
 - title: Idea Maturity
   description: Idea Maturity
