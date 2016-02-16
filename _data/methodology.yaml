@@ -9,54 +9,54 @@
   icon-bg: "#E8E8E8"
   icon-size: large
   sub-items: true
+  children:
+  - title: Development
+    icon: brainstorm.svg
+    icon-bg: "#E8E8E8"
+    sub-items: true
+    parent: Brainstorming
+    children2:
+    - title: Idea Maturity
+      icon: idea_maturity.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
+      icon-size: small
 
-- title: Development
-  icon: brainstorm.svg
-  icon-bg: "#E8E8E8"
-  sub-items: true
-  parent: Brainstorming
+    - title: Mission
+      icon: mission.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
+      icon-size: small
 
-- title: Idea Maturity
-  icon: idea_maturity.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
-  icon-size: small
+    - title: Business model
+      description: Business model
+      icon: brainstorm.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
 
-- title: Mission
-  icon: mission.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
-  icon-size: small
+    - title: Money cycle
+      description: Money cycle
+      icon: money_cycle.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
 
-- title: Business model
-  description: Business model
-  icon: brainstorm.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
+    - title: Value of proposition
+      description: Value of proposition
+      icon: value_of_proposition.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
 
-- title: Money cycle
-  description: Money cycle
-  icon: money_cycle.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
+    - title: Penetration strategy
+      description: Penetration strategy
+      icon: penetration_strategy.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
 
-- title: Value of proposition
-  description: Value of proposition
-  icon: value_of_proposition.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
-
-- title: Penetration strategy
-  description: Penetration strategy
-  icon: penetration_strategy.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
-
-- title: Vision
-  description: Vision
-  icon: vision.svg
-  icon-bg: "#E8E8E8"
-  parent: Development
+    - title: Vision
+      description: Vision
+      icon: vision.svg
+      icon-bg: "#E8E8E8"
+      parent: Development
 
 - title: Research
   description: Data Collection and Market Research.
