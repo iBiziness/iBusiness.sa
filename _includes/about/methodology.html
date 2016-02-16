@@ -13,7 +13,11 @@
           </a>
           {% endif %}
             <div class="cd-timeline-content">
+              {% if methodology.sub-items %}
                 <h2>{{ methodology.title }}</h2>
+              {% else %}
+                <h3>{{ methodology.title }}</h3>
+              {% endif %}
                 <p>{{ methodology.description }}</p>
                 {% if methodology.readmore %}
                 <a href="{{ methodology.readmore }}" class="cd-read-more">Read more</a>
