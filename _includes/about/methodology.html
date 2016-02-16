@@ -13,11 +13,14 @@
           </a>
           {% endif %}
             <div class="cd-timeline-content">
-              {% if methodology.parent %}
-                <h3>{{ methodology.title }}</h3>
-                {% else %}
-                <h2>{{ methodology.title }}</h2>
-                {% endif %}
+                {% case methodology.icon-size %}
+                  {% when 'large' %}
+                    <h2>{{ methodology.title }}</h2>
+                  {% when 'small' %}
+                    <h4>{{ methodology.title }}</h4>
+                  {% else %}
+                    <h3>{{ methodology.title }}</h3>
+                {% endcase %}
                 {% if methodology.description != blank %}
                 <p>{{ methodology.description }}</p>
                 {% endif %}
