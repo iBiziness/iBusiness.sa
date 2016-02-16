@@ -3,6 +3,7 @@
   icon: idea.svg
   icon-bg: "#E8E8E8"
   icon-size: large
+  side: left
 
 - title: Brainstorming
   description: Development
@@ -10,47 +11,55 @@
   icon-bg: "#E8E8E8"
   icon-size: large
   sub-items: true
+  side: right
 
 - title: Idea Maturity
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
   icon-size: small
+  side: right
 
 - title: Mission
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Business model
   description: Business model
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Money cycle
   description: Money cycle
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Value of proposition
   description: Value of proposition
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Penetration strategy
   description: Penetration strategy
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Vision
   description: Vision
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
+  side: right
 
 - title: Research
   description: Data Collection and Market Research.
