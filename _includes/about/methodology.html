@@ -13,10 +13,10 @@
           </a>
           {% endif %}
             <div class="cd-timeline-content">
-              {% if methodology.sub-items %}
-                <h2>{{ methodology.title }}</h2>
-              {% else %}
+              {% if methodology.parent %}
                 <h3>{{ methodology.title }}</h3>
+              {% else %}
+                <h2>{{ methodology.title }}</h2>
               {% endif %}
                 <p>{{ methodology.description }}</p>
                 {% if methodology.readmore %}
