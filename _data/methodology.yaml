@@ -16,7 +16,7 @@
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
-  icon-size: samll
+  icon-size: small
 
 - title: Mission
   description: Innovation and full potential
