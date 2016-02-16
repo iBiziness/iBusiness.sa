@@ -2,9 +2,9 @@
 <div class="container">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
-        <div class="cd-timeline-block {{ methodology.parent }}">
+        <div id="{{ methodology.title | slugify }}" class="cd-timeline-block {{ methodology.parent }}">
           {% if methodology.sub-items %}
-          <a href=".{{ methodology.parent }}" data-toggle="collapse" data-target=".{{ methodology.title }}">
+          <a href="#{{ methodology.title }}" data-toggle="collapse" data-target=".{{ methodology.title | slugify }}">
           {% endif %}
             <div class="cd-timeline-img {{ methodology.icon-size }}"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}>
                 <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
