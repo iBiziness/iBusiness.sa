@@ -17,13 +17,13 @@
   parent: Brainstorming
 
 - title: Idea Maturity
-  icon: brainstorm.svg
+  icon: idea_maturity.svg
   icon-bg: "#E8E8E8"
   parent: Development
   icon-size: small
 
 - title: Mission
-  icon: brainstorm.svg
+  icon: mission.svg
   icon-bg: "#E8E8E8"
   parent: Development
   icon-size: small
@@ -36,25 +36,25 @@
 
 - title: Money cycle
   description: Money cycle
-  icon: brainstorm.svg
+  icon: money_cycle.svg
   icon-bg: "#E8E8E8"
   parent: Development
 
 - title: Value of proposition
   description: Value of proposition
-  icon: brainstorm.svg
+  icon: value_of_proposition.svg
   icon-bg: "#E8E8E8"
   parent: Development
 
 - title: Penetration strategy
   description: Penetration strategy
-  icon: brainstorm.svg
+  icon: penetration_strategy.svg
   icon-bg: "#E8E8E8"
   parent: Development
 
 - title: Vision
   description: Vision
-  icon: brainstorm.svg
+  icon: vision.svg
   icon-bg: "#E8E8E8"
   parent: Development
 
@@ -114,6 +114,6 @@
 
 - title: Vision Implementation
   description: Another One!
-  icon: vision.svg
+  icon: vision_implementation.svg
   icon-bg: "#E8E8E8"
   icon-size: large
