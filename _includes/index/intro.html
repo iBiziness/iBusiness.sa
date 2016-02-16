@@ -7,22 +7,20 @@
     <!-- Slide -->
     <div id="slides">
         <ul class="slides-container">
-{% for project in site.projects %}
-{% if project.featured %}
+{% for slide in site.data.slides %}
             <!-- slide item -->
             <li>
-                <img src="{{ project.headline-image }}" alt="" data-stellar-ratio="0.4">
+                <img src="{{ slide.image }}" alt="" data-stellar-ratio="0.4">
                 <div class="caption-wrapper">
                     <div class="slide-caption">
                         <a href="#">
-                            <h1 class="wow fadeInDown {% if project.image-is-dark %}white-text{% endif %}" data-wow-duration="1s" data-wow-delay="0.6s">{{ project.title }}</h1>
+                            <h1 class="wow fadeInDown {% if slide.white-title %}white-text{% endif %}" data-wow-duration="1s" data-wow-delay="0.6s">{{ slide.title }}</h1>
                         </a>
-                        <h6 class="wow fadeInUp {% if project.white-text %}white-text{% endif %}" data-wow-duration="1s" data-wow-delay="0.6s">{{ project.headline }}</h6>
+                        <h6 class="wow fadeInUp {% if slide.white-caption %}white-text{% endif %}" data-wow-duration="1s" data-wow-delay="0.6s">{{ slide.caption }}</h6>
                     </div>
                 </div>
             </li>
             <!-- end slide item -->
-{% endif %}
 {% endfor %}
         </ul>
         <!-- slide navigation -->

@@ -95,15 +95,15 @@ Main components
 
 @media only screen and (min-width: 1170px) {
     .cd-timeline-img.small {
-        width: 50px;
-        height: 50px;
-        margin-left: -25px;
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
     }
     .small img {
-        width: 30px;
-        height: 30px;
-        margin-left: -15px;
-        margin-top: -15px;
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        margin-top: -10px;
     }
 }
 
