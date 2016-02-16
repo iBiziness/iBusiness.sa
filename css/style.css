@@ -530,7 +530,7 @@ blockquote footer {
 
 #slides .caption-wrapper {
     position: absolute;
-    bottom: 10%;
+    bottom: 1%;
     left: 10%;
     margin: 0;
     max-width: 400px;
