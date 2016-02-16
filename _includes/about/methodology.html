@@ -2,7 +2,7 @@
 <div class="container">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
-        <div class="cd-timeline-block {{ methodology.parent }} {{ methodology.side }}">
+        <div class="cd-timeline-block {{ methodology.parent }}">
           {% if methodology.sub-items %}
           <a href="#cd-timeline" data-toggle="collapse" data-target=".{{ methodology.title }}">
           {% endif %}
