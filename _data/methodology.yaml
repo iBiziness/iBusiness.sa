@@ -5,17 +5,52 @@
   icon-size: large
 
 - title: Brainstorming
-  description: >
-    Development, Idea Maturity
-    Mission
-    Innovation and full potential
-    Business model
-    Money cycle
-    Value of proposition
-    Penetration strategy
-    Vision
+  description: Development
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
+
+- title: Idea Maturity
+  description: Idea Maturity
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Mission
+  description: Innovation and full potential
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Business model
+  description: Business model
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Money cycle
+  description: Money cycle
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Value of proposition
+  description: Value of proposition
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Penetration strategy
+  description: Penetration strategy
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
+
+- title: Vision
+  description: Vision
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  parent: Brainstorming
 
 - title: Research
   description: Data Collection and Market Research.

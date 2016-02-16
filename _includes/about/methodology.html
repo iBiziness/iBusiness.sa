@@ -2,11 +2,16 @@
 <div class="container">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
-        <div class="cd-timeline-block">
+        <div class="cd-timeline-block {% if methodology.parent %}{{ methodology.parent }}{% endif %}">
+          {% if methodology.icon-size == large %}
+          <a href="#" class="work-btn" data-toggle="collapse" data-target=".{{ methodology.title }}">
+          {% endif %}
             <div class="cd-timeline-img {{ methodology.icon-size }}"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}>
-                <img src="/img/methodology_icons/{{ methodology.icon }}" alt="Picture">
+                <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
             </div> <!-- cd-timeline-img -->
-
+            {% if methodology.icon-size == large %}
+          </a>
+          {% endif %}
             <div class="cd-timeline-content">
                 <h2>{{ methodology.title }}</h2>
                 <p>{{ methodology.description }}</p>
