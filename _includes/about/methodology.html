@@ -15,10 +15,12 @@
             <div class="cd-timeline-content">
               {% if methodology.parent %}
                 <h3>{{ methodology.title }}</h3>
-              {% else %}
+                {% else %}
                 <h2>{{ methodology.title }}</h2>
-              {% endif %}
+                {% endif %}
+                {% if methodology.description == "" %}
                 <p>{{ methodology.description }}</p>
+                {% endif %}
                 {% if methodology.readmore %}
                 <a href="{{ methodology.readmore }}" class="cd-read-more">Read more</a>
                 {% endif %}

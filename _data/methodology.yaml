@@ -12,14 +12,12 @@
   sub-items: true
 
 - title: Idea Maturity
-  description: Idea Maturity
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
   icon-size: small
 
 - title: Mission
-  description: Innovation and full potential
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   parent: Brainstorming
