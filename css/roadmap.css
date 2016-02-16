@@ -294,6 +294,12 @@ Main components
         -moz-animation: cd-bounce-2 0.6s;
         animation: cd-bounce-2 0.6s;
     }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
 }
 
 @media only screen and (min-width: 1170px) {
