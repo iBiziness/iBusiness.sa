@@ -2,33 +2,80 @@
 <div class="container">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
-        <div id="{{ methodology.title | slugify }}" class="cd-timeline-block {{ methodology.parent | slugify }}">
-          {% if methodology.sub-items %}
-          <a href="#{{ methodology.title | slugify }}" data-toggle="collapse" data-target=".{{ methodology.title | slugify }}" data-parent="#{{ methodology.title | slugify }}">
-          {% endif %}
+        <div id="{{ methodology.title | slugify }}" data-toggle="collapse" data-target="#test{{ forloop.index0 }}" class="cd-timeline-block {{ methodology.parent | slugify }}">
             <div class="cd-timeline-img {{ methodology.icon-size }}"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}>
                 <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
             </div> <!-- cd-timeline-img -->
-            {% if methodology.sub-items %}
-          </a>
-          {% endif %}
             <div class="cd-timeline-content">
                 {% case methodology.icon-size %}
-                  {% when 'large' %}
-                    <h2>{{ methodology.title }}</h2>
-                  {% when 'small' %}
-                    <h4>{{ methodology.title }}</h4>
-                  {% else %}
+                    {% when 'large' %}
+                        <h2>{{ methodology.title }}</h2>
+                    {% when 'small' %}
+                        <h4>{{ methodology.title }}</h4>
+                    {% else %}
                     <h3>{{ methodology.title }}</h3>
                 {% endcase %}
                 {% if methodology.description != blank %}
-                <p>{{ methodology.description }}</p>
+                    <p>{{ methodology.description }}</p>
                 {% endif %}
                 {% if methodology.readmore %}
-                <a href="{{ methodology.readmore }}" class="cd-read-more">Read more</a>
+                    <a href="{{ methodology.readmore }}" class="cd-read-more">Read more</a>
                 {% endif %}
             </div> <!-- cd-timeline-content -->
         </div>
+        {% if methodology.children %}
+            <div id="test{{ forloop.index0 }}" class="collapse">
+                {% for child in methodology.children %}
+                    <div id="{{ child.title | slugify }}" data-toggle="collapse" data-target="#child2{{ forloop.index0 }}" class="cd-timeline-block">
+                        <div class="cd-timeline-img {{ child.icon-size }}"{% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}>
+                            <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                            {% case child.icon-size %}
+                            {% when 'large' %}
+                            <h2>{{ child.title }}</h2>
+                            {% when 'small' %}
+                            <h4>{{ child.title }}</h4>
+                            {% else %}
+                            <h3>{{ child.title }}</h3>
+                            {% endcase %}
+                            {% if child.description != blank %}
+                            <p>{{ child.description }}</p>
+                            {% endif %}
+                            {% if child.readmore %}
+                            <a href="{{ child.readmore }}" class="cd-read-more">Read more</a>
+                            {% endif %}
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+                    <div id="child2{{ forloop.index0 }}" class="collapse">
+                        {% for child2 in child.children2 %}
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img {{ child2.icon-size }}"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
+                                    <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                    {% case child2.icon-size %}
+                                    {% when 'large' %}
+                                    <h2>{{ child2.title }}</h2>
+                                    {% when 'small' %}
+                                    <h4>{{ child2.title }}</h4>
+                                    {% else %}
+                                    <h3>{{ child2.title }}</h3>
+                                    {% endcase %}
+                                    {% if child2.description != blank %}
+                                    <p>{{ child2.description }}</p>
+                                    {% endif %}
+                                    {% if child2.readmore %}
+                                    <a href="{{ child2.readmore }}" class="cd-read-more">Read more</a>
+                                    {% endif %}
+                                </div> <!-- cd-timeline-content -->
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="clear"></div>
+        {% endif %}
         {% endfor %}
     </section>
 </div>
