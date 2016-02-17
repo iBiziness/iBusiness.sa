@@ -22,23 +22,18 @@
   - title: Mission
     icon: mission.svg
     icon-bg: "#E8E8E8"
-
   - title: Business model
     icon: brainstorm.svg
     icon-bg: "#E8E8E8"
-
   - title: Money cycle
     icon: money_cycle.svg
     icon-bg: "#E8E8E8"
-
   - title: Value of proposition
     icon: value_of_proposition.svg
     icon-bg: "#E8E8E8"
-
   - title: Penetration strategy
     icon: penetration_strategy.svg
     icon-bg: "#E8E8E8"
-
   - title: Vision
     icon: vision.svg
     icon-bg: "#E8E8E8"
@@ -48,7 +43,6 @@
   icon: market_research.svg
   icon-bg: "#E8E8E8"
   icon-size: large
-  sub-items: true
   childern:
     - title: Data Collection
       icon: vision.svg
@@ -92,6 +86,7 @@
         icon: swot_analysis.svg
         icon-bg: "#E8E8E8"
         icon-size: small
+        parent: Feasibility Study
       - title: Risk Analysis
         icon: risk_analysis.svg
         icon-bg: "#E8E8E8"
