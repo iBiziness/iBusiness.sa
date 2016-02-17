@@ -43,7 +43,7 @@
   icon: market_research.svg
   icon-bg: "#E8E8E8"
   icon-size: large
-  childern:
+  children:
     - title: Data Collection
       icon: vision.svg
       icon-bg: "#E8E8E8"
@@ -52,20 +52,14 @@
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-
-
       - title: Market Segments
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-
-
       - title: Market Policies
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-
-
       - title: Infrastructure Capacity
         icon: vision.svg
         icon-bg: "#E8E8E8"
