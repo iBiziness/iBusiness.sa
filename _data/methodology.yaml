@@ -83,6 +83,7 @@
   description: Feasibility Study and Practicality Evaluation.
   icon: analysis.svg
   icon-bg: "#E8E8E8"
+  icon-size: large
   children:
   - title: Feasibility Study
     icon: feasibility_study.svg
