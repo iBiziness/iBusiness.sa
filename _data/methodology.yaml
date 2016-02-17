@@ -18,7 +18,6 @@
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   icon-size: large
-  sub-items: true
   children:
   - title: Mission
     icon: mission.svg
@@ -49,6 +48,7 @@
   icon: market_research.svg
   icon-bg: "#E8E8E8"
   icon-size: large
+  sub-items: true
   childern:
     - title: Data Collection
       icon: vision.svg
