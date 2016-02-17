@@ -3,7 +3,7 @@
   icon: idea.svg
   icon-bg: "#E8E8E8"
   icon-size: large
-  children:
+  children2:
     - title: Screening
       icon: screening.svg
       icon-bg: "#E8E8E8"
