@@ -3,60 +3,69 @@
   icon: idea.svg
   icon-bg: "#E8E8E8"
   icon-size: large
+  children:
+    - title: Screening
+      icon: screening.svg
+      icon-bg: "#E8E8E8"
+    - title: Evaluation
+      icon: evaluation.svg
+      icon-bg: "#E8E8E8"
+    - title: Selection
+      icon: selection.svg
+      icon-bg: "#E8E8E8"
 
-- title: Brainstorming
+- title: Concept Brainstorming
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   icon-size: large
   sub-items: true
   children:
-  - title: Development
-    icon: brainstorm.svg
+  - title: Mission
+    icon: mission.svg
     icon-bg: "#E8E8E8"
     sub-items: true
-    parent: Brainstorming
-    children2:
-    - title: Idea Maturity
-      icon: idea_maturity.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
 
-    - title: Mission
-      icon: mission.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
+  - title: Idea Maturity
+    icon: idea_maturity.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
 
-    - title: Business model
-      icon: brainstorm.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
 
-    - title: Money cycle
-      icon: money_cycle.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
+  - title: Mission
+    icon: mission.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
 
-    - title: Value of proposition
-      icon: value_of_proposition.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
 
-    - title: Penetration strategy
-      icon: penetration_strategy.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
+  - title: Business model
+    icon: brainstorm.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
 
-    - title: Vision
-      icon: vision.svg
-      icon-bg: "#E8E8E8"
-      icon-size: small
-      parent: Development
+
+  - title: Money cycle
+    icon: money_cycle.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
+
+
+  - title: Value of proposition
+    icon: value_of_proposition.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
+
+
+  - title: Penetration strategy
+    icon: penetration_strategy.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
+
+
+  - title: Vision
+    icon: vision.svg
+    icon-bg: "#E8E8E8"
+    icon-size: small
+
 
 - title: Market Research
   description: Data Collection and Market Research.
