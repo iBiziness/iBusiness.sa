@@ -38,13 +38,12 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-featured-thumbnail: http://ib.sa/img/500x500_ipay.png
+featured-thumbnail: http://ib.sa/img/ib_logos/ipay_logo.png
 featured-thumbnail-alt: iPAY
 
 # Milestones
 milestones:
 - title: Idea
-  description: Screening, Evaluation and Selection.
   icon: idea.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -84,7 +83,6 @@ milestones:
     icon-bg: "#E8E8E8"
 
 - title: Market Research
-  description: Data Collection and Market Research.
   icon: market_research.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -117,7 +115,6 @@ milestones:
 
 
 - title: Market Analysis
-  description: Feasibility Study and Practicality Evaluation.
   icon: analysis.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -153,7 +150,6 @@ milestones:
         icon-size: small
 
 - title: Requirements Preparation
-  description: Specifications, which include UI/UX Design, Technical Specification and Deployment Specification. Documentation, which includes Workflows, Business Plan, Terms and Condition and Privacy Policy.
   icon: requirements.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -196,7 +192,6 @@ milestones:
         icon-size: small
 
 - title: Resource Allocation
-  description: Seeking investors and contractors.
   icon: resource.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -209,7 +204,6 @@ milestones:
       icon-bg: "#E8E8E8"
 
 - title: Entity Formation
-  description: Equity Distribution, Legal Representation and Copy write and Trademark.
   icon: entity.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -217,17 +211,14 @@ milestones:
     - title: Equity Distribution
       icon: equity.svg
       icon-bg: "#E8E8E8"
-
     - title: Legal Representation
       icon: resource.svg
       icon-bg: "#E8E8E8"
-
     - title: Copyright and Trademark
       icon: copyright.svg
       icon-bg: "#E8E8E8"
 
 - title: Project Implementation
-  description: Employment, Development, Deployment and Training.
   icon: project_implementation.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -235,22 +226,18 @@ milestones:
     - title: Employment
       icon: employment.svg
       icon-bg: "#E8E8E8"
-
     - title: Development
       icon: development.svg
       icon-bg: "#E8E8E8"
-
     - title: Deployment
       icon: deployment.svg
       icon-bg: "#E8E8E8"
-
     - title: Training
       icon: training.svg
       icon-bg: "#E8E8E8"
 
 
 - title: Quality Evaluation
-  description: Testing and fixing issues.
   icon: quality_evaluation.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -258,17 +245,14 @@ milestones:
     - title: Alpha
       icon: alpha.svg
       icon-bg: "#E8E8E8"
-
     - title: Testing
       icon: testing.svg
       icon-bg: "#E8E8E8"
-
     - title: Bug Fixing
       icon: bugfixing.svg
       icon-bg: "#E8E8E8"
 
 - title: Launch
-  description: Beta, Management Guidelines, Marketing campaign and Live.
   icon: launch.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -276,25 +260,20 @@ milestones:
     - title: Launching Beta
       icon: beta.svg
       icon-bg: "#E8E8E8"
-
     - title: Management Guidelines
       icon: management_guidelines.svg
       icon-bg: "#E8E8E8"
-
     - title: Marketing Campaign
       icon: marketing.svg
       icon-bg: "#E8E8E8"
-
     - title: Going Live
       icon: live.svg
       icon-bg: "#E8E8E8"
-
     - title: Strategic Planning
       icon: strategy.svg
       icon-bg: "#E8E8E8"
 
 - title: Return of Investment
-  description: Quarterly Reports and Dividend Distribution.
   icon: roi.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -307,7 +286,6 @@ milestones:
           icon-bg: "#E8E8E8"
 
 - title: Vision Implementation
-  description: Another One!
   icon: vision_implementation.svg
   icon-bg: "#E8E8E8"
   icon-size: large
@@ -320,7 +298,6 @@ milestones:
           icon-bg: "#E8E8E8"
 
 - title: Innovation
-  description: Another One!
   icon: innovation.svg
   icon-bg: "#E8E8E8"
   icon-size: large

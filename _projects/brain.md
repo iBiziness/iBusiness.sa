@@ -39,54 +39,292 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-featured-thumbnail: http://ib.sa/img/500x500_Brain.png
+featured-thumbnail: http://ib.sa/img/ib_logos/brain_logo.png
 featured-thumbnail-alt: Swiftli
 
 # Milestones
 milestones:
-    - title: Milestone One
-      date: 2016-01-18 03:49:55 +0800
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-      icon: cd-icon-location.svg
+- title: Idea
+  description: Screening, Evaluation and Selection.
+  icon: idea.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Screening
+      icon: screening.svg
+      icon-bg: "#E8E8E8"
+    - title: Evaluation
+      icon: evaluation.svg
+      icon-bg: "#E8E8E8"
+    - title: Selection
+      icon: selection.svg
+      icon-bg: "#E8E8E8"
 
-    - title: Milestone Two
-      date: 2016-01-19 03:49:55 +0800
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-      icon: cd-icon-location.svg
-      icon-bg: "#123456"
-      children:
-          - title: Data Collection
-            icon: vision.svg
-            icon-bg: "#E8E8E8"
-            parent: Market Research
-            children2:
-            - title: Market Size
-              icon: vision.svg
-              icon-bg: "#E8E8E8"
-              icon-size: small
-              parent: Data Collection
-            - title: Market Segments
-              icon: vision.svg
-              icon-bg: "#E8E8E8"
-              icon-size: small
-              parent: Data Collection
-            - title: Market Policies
-              icon: vision.svg
-              icon-bg: "#E8E8E8"
-              icon-size: small
-              parent: Data Collection
-            - title: Infrastructure Capacity
-              icon: vision.svg
-              icon-bg: "#E8E8E8"
-              icon-size: small
-              parent: Data Collection
+- title: Concept Brainstorming
+  icon: brainstorm.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+  - title: Mission
+    icon: mission.svg
+    icon-bg: "#E8E8E8"
+  - title: Business model
+    icon: brainstorm.svg
+    icon-bg: "#E8E8E8"
+  - title: Money cycle
+    icon: money_cycle.svg
+    icon-bg: "#E8E8E8"
+  - title: Value of proposition
+    icon: value_of_proposition.svg
+    icon-bg: "#E8E8E8"
+  - title: Penetration strategy
+    icon: penetration_strategy.svg
+    icon-bg: "#E8E8E8"
+  - title: Vision
+    icon: vision.svg
+    icon-bg: "#E8E8E8"
 
-    - title: Milestone Three
-      date: 2016-01-20 03:49:55 +0800
-      description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
-      icon: cd-icon-location.svg
-      readmore: http://google.com
-      icon-bg: "red"
+- title: Market Research
+  description: Data Collection and Market Research.
+  icon: market_research.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Data Collection
+      icon: vision.svg
+      icon-bg: "#E8E8E8"
+      parent: Market Research
+      children2:
+      - title: Market Size
+        icon: vision.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+        parent: Data Collection
+      - title: Market Segments
+        icon: vision.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+        parent: Data Collection
+      - title: Market Policies
+        icon: vision.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+        parent: Data Collection
+      - title: Infrastructure Capacity
+        icon: vision.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+        parent: Data Collection
+
+
+- title: Market Analysis
+  description: Feasibility Study and Practicality Evaluation.
+  icon: analysis.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+  - title: Feasibility Study
+    icon: feasibility_study.svg
+    icon-bg: "#E8E8E8"
+    children2:
+      - title: SWOT Analysis
+        icon: swot_analysis.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+        parent: Feasibility Study
+      - title: Risk Analysis
+        icon: risk_analysis.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Financial Study
+        icon: financial_study.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+  - title: Practicality Evaluation
+    icon: analysis.svg
+    icon-bg: "#E8E8E8"
+    children2:
+      - title: Audience Behavior Research
+        icon: behavior.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Competition Analysis
+        icon: competition_analysis.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+
+- title: Requirements Preparation
+  description: Specifications, which include UI/UX Design, Technical Specification and Deployment Specification. Documentation, which includes Workflows, Business Plan, Terms and Condition and Privacy Policy.
+  icon: requirements.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+  - title: Specifications
+    icon: specification.svg
+    icon-bg: "#E8E8E8"
+    children2:
+      - title: UI/UX Design
+        icon: ux.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Technical Specification
+        icon: tech_specs.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Deployment Specification
+        icon: deploy_specs.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+  - title: Documentation
+    icon: docs.svg
+    icon-bg: "#E8E8E8"
+    children2:
+      - title: Workflows
+        icon: workflows.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Business Plan
+        icon: business_plan.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Terms and Conditions
+        icon: terms.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+      - title: Privacy Policy
+        icon: privacy.svg
+        icon-bg: "#E8E8E8"
+        icon-size: small
+
+- title: Resource Allocation
+  description: Seeking investors and contractors.
+  icon: resource.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Investors
+      icon: investors.svg
+      icon-bg: "#E8E8E8"
+    - title: Contractors
+      icon: contractors.svg
+      icon-bg: "#E8E8E8"
+
+- title: Entity Formation
+  description: Equity Distribution, Legal Representation and Copy write and Trademark.
+  icon: entity.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Equity Distribution
+      icon: equity.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Legal Representation
+      icon: resource.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Copyright and Trademark
+      icon: copyright.svg
+      icon-bg: "#E8E8E8"
+
+- title: Project Implementation
+  description: Employment, Development, Deployment and Training.
+  icon: project_implementation.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Employment
+      icon: employment.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Development
+      icon: development.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Deployment
+      icon: deployment.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Training
+      icon: training.svg
+      icon-bg: "#E8E8E8"
+
+
+- title: Quality Evaluation
+  description: Testing and fixing issues.
+  icon: quality_evaluation.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Alpha
+      icon: alpha.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Testing
+      icon: testing.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Bug Fixing
+      icon: bugfixing.svg
+      icon-bg: "#E8E8E8"
+
+- title: Launch
+  description: Beta, Management Guidelines, Marketing campaign and Live.
+  icon: launch.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+    - title: Launching Beta
+      icon: beta.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Management Guidelines
+      icon: management_guidelines.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Marketing Campaign
+      icon: marketing.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Going Live
+      icon: live.svg
+      icon-bg: "#E8E8E8"
+
+    - title: Strategic Planning
+      icon: strategy.svg
+      icon-bg: "#E8E8E8"
+
+- title: Return of Investment
+  description: Quarterly Reports and Dividend Distribution.
+  icon: roi.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+        - title: Quarterly Reports
+          icon: reports.svg
+          icon-bg: "#E8E8E8"
+        - title: Annual Payouts
+          icon: annual_payouts.svg
+          icon-bg: "#E8E8E8"
+
+- title: Vision Implementation
+  description: Another One!
+  icon: vision_implementation.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
+  children:
+        - title: Sustainability
+          icon: sustainability.svg
+          icon-bg: "#E8E8E8"
+        - title: Reach
+          icon: reach.svg
+          icon-bg: "#E8E8E8"
+
+- title: Innovation
+  description: Another One!
+  icon: innovation.svg
+  icon-bg: "#E8E8E8"
+  icon-size: large
 ---
 
 #We are working on four major areas;
