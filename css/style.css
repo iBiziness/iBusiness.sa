@@ -847,7 +847,7 @@ blockquote footer {
 .bg-single-work {
     position: relative;
     background-attachment: fixed;
-    background-position: 70% 0;
+    background-position: 90% 0;
     background-repeat: no-repeat;
 
     -webkit-background-size: cover;
