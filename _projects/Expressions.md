@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-priority: 4
+priority: 2
 title: Expressions
 category: User Experience Design
 headline: User Experience Design Studio

@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-priority: 1
+priority: 4
 title: iSTORE
 category: E-Commerce Infrastructure
 headline: Intelligent E-Commerce Solution

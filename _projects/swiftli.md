@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-priority: 2
+priority: 5
 title: Swiftli
 category: Logistic Services
 headline: Smart Logestic Services

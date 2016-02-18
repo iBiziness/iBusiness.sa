@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-priority: 0
+priority: 1
 title: Brain
 category: Artificial Intelligence
 headline: The Path to Paradigm Shift
