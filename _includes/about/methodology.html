@@ -26,7 +26,7 @@
         {% if methodology.children %}
             <div id="child1{{ forloop.index0 }}" class="collapse">
                 {% for child in methodology.children %}
-                    <div id="{{ child.title | slugify }}" data-toggle="collapse" data-target="#child2{{ forloop.index0 }}" class="cd-timeline-block">
+                    <div id="{{ child.title | slugify }}" data-toggle="collapse" data-target="#child2{{ forloop.index0 }}" class="cd-timeline-block {{ methodology.parent | slugify }}">
                         <div class="cd-timeline-img {{ child.icon-size }}"{% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}>
                             <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
                         </div> <!-- cd-timeline-img -->
