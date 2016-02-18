@@ -38,7 +38,7 @@ design: 100
 development: 100
 
 # Latest (Add these part if you want it to show on latest works)
-featured-thumbnail: http://ib.sa/img/ib_logos/expressions_logo.png
+featured-thumbnail: http://ib.sa/img/ib_logos/expressions_icon.png
 featured-thumbnail-alt: Expressions
 
 # Milestones
