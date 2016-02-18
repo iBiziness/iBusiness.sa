@@ -92,28 +92,23 @@ milestones:
     - title: Data Collection
       icon: vision.svg
       icon-bg: "#E8E8E8"
-      parent: Market Research
       children2:
       - title: Market Size
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Segments
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Policies
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Infrastructure Capacity
         icon: vision.svg
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
 
 
 - title: Market Analysis
