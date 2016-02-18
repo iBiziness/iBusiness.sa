@@ -15,7 +15,7 @@
                 <p>{{ page.description }}</p>
             </div>
         </div>
-        {% if page.content-is-ready %}
+        {% unless page.content-is-ready %}
         <!-- Work Presentation 1 -->
         <div class="row m-top-40">
             <div class="col-md-12 wow fadeInUp">
@@ -44,7 +44,7 @@
                 <img class="img-responsive" src="{{ page.work-presentation-3-image }}" alt="{{ page.work-presentation-3-image-alt }}">
             </div>
         </div>
-        {% endif %}
+        {% endunless %}
         {% if page.milestones.size > 0 %}
         {% include project/roadmap_embedded.html %}
         {% endif %}
