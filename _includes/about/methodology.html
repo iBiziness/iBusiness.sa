@@ -27,7 +27,7 @@
             </div> <!-- cd-timeline-content -->
         </div>
         {% if methodology.children %}
-            <div id="{{ methodology.title | slugify }}-{{ forloop.index0 }}" class="collapse" data-parent="{{ methodology.title | slugify }}">
+            <div id="{{ methodology.title | slugify }}-{{ forloop.index0 }}" class="collapse">
                 {% for child in methodology.children %}
                     <div id="{{ child.title | slugify }}" class="cd-timeline-block">
                         <div class="cd-timeline-img {{ child.icon-size }}"
@@ -53,7 +53,7 @@
                         </div> <!-- cd-timeline-content -->
                     </div>
                     {% if child.children2 %}
-                    <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse" data-parent="{{ methodology.title | slugify }}">
+                    <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse">
                         {% for child2 in child.children2 %}
                             <div class="cd-timeline-block">
                                 <div class="cd-timeline-img {{ child2.icon-size }}"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>

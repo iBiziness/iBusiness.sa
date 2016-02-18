@@ -54,6 +54,32 @@ milestones:
       description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.
       icon: cd-icon-location.svg
       icon-bg: "#123456"
+      children:
+          - title: Data Collection
+            icon: vision.svg
+            icon-bg: "#E8E8E8"
+            parent: Market Research
+            children2:
+            - title: Market Size
+              icon: vision.svg
+              icon-bg: "#E8E8E8"
+              icon-size: small
+              parent: Data Collection
+            - title: Market Segments
+              icon: vision.svg
+              icon-bg: "#E8E8E8"
+              icon-size: small
+              parent: Data Collection
+            - title: Market Policies
+              icon: vision.svg
+              icon-bg: "#E8E8E8"
+              icon-size: small
+              parent: Data Collection
+            - title: Infrastructure Capacity
+              icon: vision.svg
+              icon-bg: "#E8E8E8"
+              icon-size: small
+              parent: Data Collection
 
     - title: Milestone Three
       date: 2016-01-20 03:49:55 +0800
