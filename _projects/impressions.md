@@ -1,7 +1,7 @@
 ---
 layout: project
 featured: true
-priority: 5
+priority: 6
 title: Impressions
 category: Intelligent Advertising
 headline: Intelligent Integrated Advertising
