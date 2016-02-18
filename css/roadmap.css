@@ -77,6 +77,11 @@ Main components
   margin-top: -12px;
 }
 
+.cd-timeline-img:hover, .active {
+    cursor: pointer;
+    background-color: #1d92ac !important;
+}
+
 /* Sizes */
 
 @media only screen and (min-width: 1170px) {

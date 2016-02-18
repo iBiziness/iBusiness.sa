@@ -3,7 +3,10 @@
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
         <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
-                <div class="cd-timeline-img {{ methodology.icon-size }}"{% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %} data-toggle="collapse" data-target="#{{ methodology.title | slugify }}-{{ forloop.index0 }}" data-collapse-color="{{ methodology.collapse-color }}">
+                <div class="cd-timeline-img {{ methodology.icon-size }}"
+                     {% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}
+                     data-toggle="collapse"
+                     data-target="#{{ methodology.title | slugify }}-{{ forloop.index0 }}">
                 <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
             </div> <!-- cd-timeline-img -->
             <div class="cd-timeline-content">
@@ -27,7 +30,9 @@
             <div id="{{ methodology.title | slugify }}-{{ forloop.index0 }}" class="collapse" data-parent="{{ methodology.title | slugify }}">
                 {% for child in methodology.children %}
                     <div id="{{ child.title | slugify }}" class="cd-timeline-block">
-                        <div class="cd-timeline-img {{ child.icon-size }}"{% if child.icon-bg %} style="background-color: {{ child.icon-bg }}" data-default-color="{{ child.icon-bg }}"{% endif %} data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}" data-collapse-color="{{ child.collapse-color }}">
+                        <div class="cd-timeline-img {{ child.icon-size }}"
+                             {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
+                             data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
                             <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
                         </div> <!-- cd-timeline-img -->
                         <div class="cd-timeline-content">
