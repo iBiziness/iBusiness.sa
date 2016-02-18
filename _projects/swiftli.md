@@ -40,7 +40,7 @@ development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-featured-thumbnail: http://ib.sa/img/ib_logos/swiftli_icon.png
+featured-thumbnail: http://ib.sa/img/ib_logos/swiftli_logo.png
 featured-thumbnail-alt: Swiftli
 
 # Milestones
