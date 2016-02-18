@@ -243,6 +243,26 @@ $(function () {
                 ( $(this).offset().top <= $(window).scrollTop()+$(window).height()*offset && $(this).find('.cd-timeline-img, .cd-methodology-img').hasClass('is-hidden') ) && $(this).find('.cd-timeline-img, .cd-methodology-img, .cd-timeline-content').removeClass('is-hidden').addClass('bounce-in');
             });
         }
+
+        // timeline change color
+        $('.cd-timeline-img').on('click', function (e) {
+            if($($(this).data('target')).hasClass('in')){
+                var defaultColor = $(this).data('default-color');
+                if(defaultColor)
+                    $(e.currentTarget).css('background-color', defaultColor);
+                else
+                    $(e.currentTarget).css('background-color', '#E8E8E8');
+            }
+            else if($($(this).data('target')).length){
+                var dataCollapseColor = $(this).data('collapse-color');
+                if(dataCollapseColor)
+                    $(e.currentTarget).css('background-color', dataCollapseColor);
+                else
+                    $(e.currentTarget).css('background-color', 'red');
+            }
+        });
+
+        
     });
 
     /*--------------------------------------------------

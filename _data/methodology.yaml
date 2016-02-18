@@ -18,6 +18,7 @@
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
   icon-size: large
+  collapse-color: "#123456"
   children:
   - title: Mission
     icon: mission.svg
