@@ -248,6 +248,11 @@ $(function () {
         $('.cd-timeline-img').on('click', function (e) {
             if($($(this).data('target')).length && !$(this).hasClass('active')){
                 $(this).addClass('active');
+                var element = $($(this).data('target'));
+                var floatValue = element.prev().find('.cd-timeline-content').css('float');
+                element.find('.cd-timeline-content').each(function(){
+                    $(this).css('float', floatValue);
+                });
             }
             else{
                 $(this).removeClass('active')
