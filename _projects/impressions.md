@@ -163,7 +163,7 @@ milestones:
         icon-bg: "#E8E8E8"
         icon-size: small
   - title: Documentation
-    icon: docs.svg
+    icon: docs.png
     icon-bg: "#E8E8E8"
     children2:
       - title: Workflows
@@ -290,7 +290,7 @@ milestones:
           icon-bg: "#E8E8E8"
 
 - title: Innovation
-  icon: innovation.svg
+  icon: innovation.png
   icon-bg: "#E8E8E8"
   icon-size: large
 ---

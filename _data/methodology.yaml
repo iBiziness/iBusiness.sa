@@ -130,7 +130,7 @@
         icon-bg: "#E8E8E8"
         icon-size: small
   - title: Documentation
-    icon: docs.svg
+    icon: docs.png
     icon-bg: "#E8E8E8"
     children2:
       - title: Workflows
@@ -276,6 +276,6 @@
 
 - title: Innovation
   description: Another One!
-  icon: innovation.svg
+  icon: innovation.png
   icon-bg: "#E8E8E8"
   icon-size: large
