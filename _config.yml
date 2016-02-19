@@ -2,7 +2,7 @@
 gems: [jekyll-paginate]
 title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
-  
+
 
 # About Section
 about: We are group of entrepreneurs specializing in creating, holding and supporting a wide spectrum of information based businesses.
@@ -12,7 +12,7 @@ mission:
 # Contact Information
 telephone: 920005022
 address: Firas Bin Nadr Street, Ulaya, Khobar, Saudi Arabia
-email: info@iBusiness.sa
+email: Support@iB.sa
 
 # Social Links
 facebook: http://facebook.com

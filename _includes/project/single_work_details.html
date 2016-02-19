@@ -45,6 +45,9 @@
             </div>
         </div>
         {% endif %}
+        {% if page.value-of-proposition.size > 0 %}
+        {% include project/value_of_proposition.html %}
+        {% endif %}
         {% if page.milestones.size > 0 %}
         {% include project/roadmap_embedded.html %}
         {% endif %}
