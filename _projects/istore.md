@@ -8,8 +8,8 @@ headline: Intelligent E-Commerce Platform
 headline-image: http://ib.sa/img/ib_patterns/1920_istore.png
 client: Intelligent Store
 date: 2016-01-18 03:49:55 +0800
-website: www.example.com
-website-url: http://www.example.com
+website: istore.sa
+website-url: http://istore.sa
 description: iSTORE is all-in-one e-commerce solution that seamless facilitates and optimizes the process of creating an online presence, adding products, managing your inventory, automated logistic fulfillments of orders, and market exposures with high level of security & technical support.
 mission: A web application system that facilitates trading of products or services and generates information from user behavior.
 roadmap: true

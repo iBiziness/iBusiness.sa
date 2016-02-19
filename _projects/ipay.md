@@ -8,8 +8,8 @@ headline: Integrated Payment Solution
 headline-image: http://ib.sa/img/ib_patterns/1920_ipay.png
 client: Integrated Payment
 date: 2016-01-18 03:49:55 +0800
-website: www.ipay.sa
-website-url: http://www.ipay.sa
+website: ipay.sa
+website-url: http://ipay.sa
 description: iPay is an online payment processing solution and invoicing system for your business. It provides a free system integration and support to your shopping cart or web service.
 roadmap: true
 

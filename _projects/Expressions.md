@@ -8,8 +8,8 @@ white-text: true
 headline-image: http://ib.sa/img/ib_patterns/1920_expressions.png
 client: Expressions
 date: 2016-01-18 03:49:55 +0800
-website: www.example.com
-website-url: http://www.example.com
+website: Expressions.io
+website-url: http://expressions.io
 description: Expressions is a User Experience agency that helps lifestyle inspired companies engage consumers and communicate with users with best practice.
 roadmap: true
 

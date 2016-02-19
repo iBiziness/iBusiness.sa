@@ -10,7 +10,7 @@ image-is-dark: true
 client: Swiftli
 date: 2016-01-18 03:49:55 +0800
 website: Swiftli.io
-website-url: http://Swiftli.io
+website-url: http://swiftli.io
 description: Swiftli is an on-demand delivery network that makes getting things in your city more convenient, affordable, and reliable.
 roadmap: true
 

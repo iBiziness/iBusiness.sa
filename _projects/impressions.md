@@ -8,8 +8,8 @@ headline-image: http://ib.sa/img/ib_patterns/1920_impressions.png
 image-is-dark: true
 client: Impressions
 date: 2016-01-18 03:49:55 +0800
-website: www.example.com
-website-url: http://www.example.com
+website: Impressions.io
+website-url: http://impressions.io
 description: Impressions is an online advertising service that enables advertisers to reach their niche user-base in an integrated method in e-commerce platforms.
 roadmap: true
 
