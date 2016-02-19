@@ -80,8 +80,11 @@ Main components
   .cd-timeline-img .active {
     cursor: pointer;
     background-color: #1d92ac !important;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
   }
-  .cd-timeline-img:hover {
+  .cd-timeline-img:hover, .active {
     cursor: pointer;
     background-color: #1d92ac !important;
     width: 100px;

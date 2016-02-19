@@ -6,6 +6,7 @@ title: iSTORE
 category: E-Commerce Infrastructure
 headline: Intelligent E-Commerce Platform
 headline-image: http://ib.sa/img/ib_patterns/1920_istore.png
+logo: http://ib.sa/img/ib_logos/istore_logo.png
 client: Intelligent Store
 date: 2016-01-18 03:49:55 +0800
 website: istore.sa
