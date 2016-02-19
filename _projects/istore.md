@@ -4,7 +4,7 @@ featured: true
 priority: 4
 title: iSTORE
 category: E-Commerce Infrastructure
-headline: Intelligent E-Commerce Solution
+headline: Intelligent E-Commerce Platform 
 headline-image: http://ib.sa/img/1920_istore.png
 client: Intelligent Store
 date: 2016-01-18 03:49:55 +0800
