@@ -151,7 +151,7 @@ milestones:
     icon-bg: "#E8E8E8"
     children2:
       - title: UI/UX Design
-        icon: ux.svg
+        icon: ux.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Technical Specification
