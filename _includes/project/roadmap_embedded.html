@@ -8,7 +8,7 @@
                {% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}
                data-toggle="collapse"
                data-target="#{{ milestone.title | slugify }}-{{ forloop.index0 }}">
-              <img src="/img/roadmap_icons/{{ milestone.icon }}" alt="Picture">
+              <img src="/img/methodology_icons/{{ milestone.icon }}" alt="Picture">
           </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
@@ -27,7 +27,7 @@
                   <div class="cd-timeline-img {{ child.icon-size }}"
                        {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
                        data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
-                      <img src="/img/roadmap_icons/{{ child.icon }}" alt="{{ child.title }}">
+                      <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
                   </div> <!-- cd-timeline-img -->
                   <div class="cd-timeline-content">
                       {% case child.icon-size %}
