@@ -1,8 +1,8 @@
 ---
 layout: project
+title: Impressions
 featured: true
 priority: 6
-title: Impressions
 category: Intelligent Advertising
 headline: Targeted Advertising Agency
 headline-image: http://ib.sa/img/ib_patterns/1920_impressions.png
