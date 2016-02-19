@@ -1,15 +1,15 @@
 <!-- Start About Us -->
 <section id="about" class="section bg-about" data-stellar-background-ratio="0.5">
-    <!--<div class="overlay-dark"></div>--><!-- Overlay Dark -->
+    <div class="overlay-dark"></div><!-- Overlay Dark -->
     <div class="container">
         <div class="row">
             <!-- about text -->
             <div class="col-md-7 wow fadeInUp">
-                <h3>About {{ site.title }}</h3>
+                <h3 class="white-text">About {{ site.title }}</h3>
                 <div class="divider"></div>
-                <h6>{{ site.about }}</h6>
+                <h6 class="color: #BBB">{{ site.about }}</h6>
                 {% for mission in site.mission %}
-                <p>{{ mission | markdownify }}</p>
+                <p class="color: #BBB">{{ mission | markdownify }}</p>
                 {% endfor %}
             </div>
             <!-- End about text -->
