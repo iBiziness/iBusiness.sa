@@ -1,5 +1,6 @@
 ---
 layout: project
+featured: true
 priority: 1
 title: Brain
 category: Artificial Intelligence
@@ -12,7 +13,6 @@ website-url: http://brain.io
 description: Brain.io is a research, development and innovation company based in The Grand Duchy of Luxembourg.
 
 # Featured (Add these part if you want it to show on latest works)
-featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/brain_logo.png
 featured-thumbnail-alt: Brain.io
 

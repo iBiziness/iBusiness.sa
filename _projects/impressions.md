@@ -1,5 +1,6 @@
 ---
 layout: project
+featured: true
 priority: 6
 title: Impressions
 category: Intelligent Advertising

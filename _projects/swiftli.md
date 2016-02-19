@@ -1,5 +1,6 @@
 ---
 layout: project
+featured: true
 priority: 5
 title: Swiftli
 category: Logistic Services

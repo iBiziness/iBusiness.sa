@@ -1,5 +1,6 @@
 ---
 layout: project
+featured: true
 priority: 2
 title: Expressions
 category: User Experience Design
