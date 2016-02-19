@@ -42,7 +42,7 @@ $(document).ready(function () {
                 message: js_message
             },
             success:function(response){
-                $("#main-result").html('<fieldset class="response">'+ "Your inquiry has been sent." +'</fieldset>');
+                $("#main-result").html('<fieldset class="response">'+ "Thank you for contacting us, we will reply back to you within 24 hours." +'</fieldset>');
                 $("#main-result").slideDown("slow"); //show Result
                 $("#main-content").hide(); //hide form div slowly
             },
