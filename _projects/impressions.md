@@ -33,11 +33,11 @@ value-of-proposition:
 - title: Convinance to the User
   benefits:
   - title: Relevant Advertising
-  description: Impressions will strictly allow relevant advertisement.
+    description: Impressions will strictly allow relevant advertisement.
   - title: Non-obtrusive Marketing
-  description: Impressions will always integrate advertisement in the user experience in non-obtrusive way.
+    description: Impressions will always integrate advertisement in the user experience in non-obtrusive way.
   - title: Beneficial Deals
-  description: Impressions will seek the best offers to make it available to the users.
+    description: Impressions will seek the best offers to make it available to the users.
 
 # Milestones
 milestones:

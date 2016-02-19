@@ -23,24 +23,24 @@ featured-thumbnail-alt: Swiftli
 # Value of proposition  
 value-of-proposition:
   - title: Benefits to the Business Owners
-  benefits:
-  - title: Reach
-    description: With Swiftli business will wave the hassle of to door deliveries and increase the reach to wider audience who don't have the transportation mean or time to access their physical stores.
-  - title: Quality service
-    description: Uniformity, trackability, accurate timing and automated pick-up experience all will combine a quality service that will be provided to the business.
-  - title: Lower overhead cost
-    description: Couriers, gas prices and cars all of these cost will be waived so the business can focus on sales and start delivery service immediately.
-  - title: Insights
-    description: Amount of minutes saved, amount of minutes delayed and customer feedback will provide a good insight of the system performance to the business owner.
+    benefits:
+    - title: Reach
+      description: With Swiftli business will wave the hassle of to door deliveries and increase the reach to wider audience who don't have the transportation mean or time to access their physical stores.
+    - title: Quality service
+      description: Uniformity, trackability, accurate timing and automated pick-up experience all will combine a quality service that will be provided to the business.
+    - title: Lower overhead cost
+      description: Couriers, gas prices and cars all of these cost will be waived so the business can focus on sales and start delivery service immediately.
+    - title: Insights
+      description: Amount of minutes saved, amount of minutes delayed and customer feedback will provide a good insight of the system performance to the business owner.
 
   - title: Benefits to Users
-  benefits:
-  - title: Accessibility
-    description: With more businesses subscribed to Swiftli user will have an access to a wide spectrum of services at home.
-  - title: Effort minimization
-    description: It is not usual for customers to travel long distances to reach their preferred physical store, Swiftli will eliminate travel time and effort.
-  - title: User Experience
-    description: Delivery speed options, real-time tracking, customer feedback and delivery workflow all will give a unique experience to the users.
+    benefits:
+    - title: Accessibility
+      description: With more businesses subscribed to Swiftli user will have an access to a wide spectrum of services at home.
+    - title: Effort minimization
+      description: It is not usual for customers to travel long distances to reach their preferred physical store, Swiftli will eliminate travel time and effort.
+    - title: User Experience
+      description: Delivery speed options, real-time tracking, customer feedback and delivery workflow all will give a unique experience to the users.
 
 # Milestones
 milestones:
