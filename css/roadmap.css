@@ -83,6 +83,13 @@ Main components
     width: 100px;
     height: 100px;
     margin-left: -50px;
+  }
+  .cd-timeline-img img:hover {
+      width: 60px;
+      height: 60px;
+      margin-left: -30px;
+      margin-top: -30px;
+  }
 }
 
 /* Sizes */
