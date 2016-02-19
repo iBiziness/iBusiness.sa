@@ -1,14 +1,14 @@
 <a href="#roadmap" class="work-btn" data-toggle="collapse" data-target="#roadmap">Roadmap</a>
 <!-- Embedded Roadmap -->
-<div id="roadmap" aria-expanded="false">
-  <section id="cd-timeline collapse" class="cd-container">
+<div id="roadmap" class="collapse">
+  <section id="cd-timeline" class="cd-container">
       {% for milestone in page.milestones %}
       <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture {{ milestone.icon-size }}"
                {% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}
                data-toggle="collapse"
                data-target="#{{ milestone.title | slugify }}-{{ forloop.index0 }}">
-              <img src="/img/methodology_icons/{{ milestone.icon }}" alt="Picture">
+              <img src="/img/methodology_icons/{{ milestone.icon }}" alt="">
           </div> <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
