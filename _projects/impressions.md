@@ -16,7 +16,7 @@ roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
-featured-thumbnail: http://ib.sa/img/500x500_Impressions.png
+featured-thumbnail: http://ib.sa/img/ib_logos/impressions_logo.png
 featured-thumbnail-alt: Impressions
 
 # Value of Propositions
