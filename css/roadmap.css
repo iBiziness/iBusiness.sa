@@ -86,7 +86,7 @@ Main components
     height: 100px;
     margin-left: -50px;
   }
-  .cd-timeline-img > img:hover {
+  .cd-timeline-img:hover > img {
       width: 60px;
       height: 60px;
       margin-left: -30px;
