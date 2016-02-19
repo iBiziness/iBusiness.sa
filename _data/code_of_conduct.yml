@@ -1,17 +1,17 @@
-- title: Standardization
-  description: Adhering to the latest defined standards while defining new standards for the unstandardized sectors and implementing these standards with the web best practices in terms of usability, function and efficiency for all parties involved.
-  icon: ion-ios-lightbulb-outline
-
 - title: Compliance
-  description: We aim to payback to governments by complying their rules and regulations. Compliance will directly support the growth of economy, which creates a healthier ecosystem for our businesses to run and operate.
+  description: We aim to be a role model in adherence to governments rules and regulations as we see mutual benefits in the growth of economy and creating a healthier ecosystem for our businesses to run and operate.
   icon: ion-asterisk
 
+- title: Standardization
+  description: Adhering to the latest defined standards while defining new standards for the unstandardized sectors and implementing the web best practices in terms of usability, function and efficiency for all parties involved.
+  icon: ion-ios-lightbulb-outline
+
 - title: Transparency
-  description: We believe that information delivery is not about how much information you can give, it’s about how much of that information can be understood quickly by the recipient, so we strive thru various methods to achieve the most comprehendible information delivery form.
+  description: We believe that information delivery is not just about how much information you can provide. It is very important that information can be understood quickly by the recipient. For that reason,  we strive through various methods to achieve the most comprehendible information delivery form.
   icon: ion-ios-paper-outline
 
 - title: Error Minimization
-  description: Human beings are prone to error, and so does machines, and we believe that every failure is caused by unbalanced load distribution between man and machine, so we engineer workflows and processes that minimize load, effort, time and most importantly, errors, with absolutely no compromises in quality or efficiency.
+  description: Errors are unavoidable. However, a big part of our commitment is to minimize the frequency of errors and their impact. With that in mind, we engineer workflows and processes that distribute load and separate concerns which in turn minimizes, effort, time and most importantly, errors, with absolutely no compromises in accuracy or quality.
   icon: ion-social-usd-outline
 
 - title: Eco-Friendliness
@@ -23,16 +23,16 @@
   icon: ion-code-working
 
 - title: Community Giveback
-  description: Solving community problems has a high priority in our business evaluations, and we believe that every business has to give back to the community even before it starts making a profit, by delivering a service of quality.
+  description: Solving community problems has a high priority in our business evaluations, and we are committed to giving back to the community even before making a profit, by delivering services of quality.
   icon: ion-ios-checkmark-outline
 
 - title: Monetization
-  description: A quality service has become a rare commodity, most companies tend to increase prices without meeting it with quality, and more often than not, it’s unjustified, and that’s greed. We believe in quality as much as we believe in self-benefit, and maximizing both is achieved by creating sustainable businesses that don’t rely on a short-term high profit business model, high profitability is reached by relying on the company image and service quality to raise the company value.
+  description: We believe in quality as much as we believe in self-benefit, and maximizing both is achieved by creating sustainable businesses that do not rely on a short-term high profit business model, real profitability is reached by focusing on the company image and service quality.
   icon: ion-ios-bolt-outline
 
 - title: Non-Obtrusive Marketing
-  description: Conventional marketing techniques has major issues, because some marketing approaches tend to invade user privacies, waste audience time with irrelevant ads and violate business ethics to reach their marketing goals, and we chose not to contribute to that by only allowing non-obtrusive purposeful advertising.
+  description: We believe in marketing ads that are beneficial and convenient to the consumer as well as all parties involved. For that reason, we developed marketing strategies and techniques that strictly rely on relevant and non-obtrusive ads and promotions.
 
 - title: Privacy Matters
-  description: Respecting an individual privacy is a must. on the other hand business need to share the user's information to provide automated and better quality service so we have developed [define ananometa].
+  description: Respecting individuals privacy is essential. on the other hand businesses need to share some of their users' information to provide automated and better quality service so we have developed [define ananometa].
   icon: ion-ios-bolt-outline
