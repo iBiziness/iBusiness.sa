@@ -93,7 +93,7 @@ milestones:
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Market Segments
-        icon: market_segments.png
+        icon: market_segment.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Market Policies
