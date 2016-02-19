@@ -66,30 +66,25 @@ milestones:
   icon-size: large
   children:
     - title: Data Collection
-      icon: vision.svg
+      icon: data_collection.png
       icon-bg: "#E8E8E8"
-      parent: Market Research
       children2:
       - title: Market Size
-        icon: vision.svg
+        icon: market_size.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Segments
-        icon: vision.svg
+        icon: market_segment.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Policies
-        icon: vision.svg
+        icon: market_policies.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Infrastructure Capacity
-        icon: vision.svg
+        icon: infrastructure_capacity.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
 
 
 - title: Market Analysis
@@ -98,20 +93,20 @@ milestones:
   icon-size: large
   children:
   - title: Feasibility Study
-    icon: feasibility_study.svg
+    icon: feasibility_study.png
     icon-bg: "#E8E8E8"
     children2:
       - title: SWOT Analysis
-        icon: swot_analysis.svg
+        icon: swot_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
         parent: Feasibility Study
       - title: Risk Analysis
-        icon: risk_analysis.svg
+        icon: risk_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Financial Study
-        icon: financial_study.svg
+        icon: financial_study.png
         icon-bg: "#E8E8E8"
         icon-size: small
   - title: Practicality Evaluation
@@ -119,11 +114,11 @@ milestones:
     icon-bg: "#E8E8E8"
     children2:
       - title: Audience Behavior Research
-        icon: behavior.svg
+        icon: audience_behavior.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Competition Analysis
-        icon: competition_analysis.svg
+        icon: competition_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
 
@@ -133,7 +128,7 @@ milestones:
   icon-size: large
   children:
   - title: Specifications
-    icon: specification.svg
+    icon: specs.png
     icon-bg: "#E8E8E8"
     children2:
       - title: UI/UX Design
@@ -141,11 +136,11 @@ milestones:
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Technical Specification
-        icon: tech_specs.svg
+        icon: technical_specs.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Deployment Specification
-        icon: deploy_specs.svg
+        icon: deployment_specs.png
         icon-bg: "#E8E8E8"
         icon-size: small
   - title: Documentation
@@ -175,10 +170,10 @@ milestones:
   icon-size: large
   children:
     - title: Investors
-      icon: investors.svg
+      icon: investors.png
       icon-bg: "#E8E8E8"
     - title: Contractors
-      icon: contractors.svg
+      icon: contractors.png
       icon-bg: "#E8E8E8"
 
 - title: Entity Formation
@@ -187,13 +182,13 @@ milestones:
   icon-size: large
   children:
     - title: Equity Distribution
-      icon: equity.svg
+      icon: equity.png
       icon-bg: "#E8E8E8"
     - title: Legal Representation
-      icon: resource.svg
+      icon: legal_representation.png
       icon-bg: "#E8E8E8"
     - title: Copyright and Trademark
-      icon: copyright.svg
+      icon: copyright.png
       icon-bg: "#E8E8E8"
 
 - title: Project Implementation
@@ -202,16 +197,16 @@ milestones:
   icon-size: large
   children:
     - title: Employment
-      icon: employment.svg
+      icon: employment.png
       icon-bg: "#E8E8E8"
     - title: Development
-      icon: development.svg
+      icon: development.png
       icon-bg: "#E8E8E8"
     - title: Deployment
-      icon: deployment.svg
+      icon: deployment.png
       icon-bg: "#E8E8E8"
     - title: Training
-      icon: training.svg
+      icon: training.png
       icon-bg: "#E8E8E8"
 
 
@@ -221,13 +216,13 @@ milestones:
   icon-size: large
   children:
     - title: Alpha
-      icon: alpha.svg
+      icon: alpha.png
       icon-bg: "#E8E8E8"
     - title: Testing
-      icon: testing.svg
+      icon: testing.png
       icon-bg: "#E8E8E8"
     - title: Bug Fixing
-      icon: bugfixing.svg
+      icon: bug_fixing.png
       icon-bg: "#E8E8E8"
 
 - title: Launch
@@ -236,19 +231,19 @@ milestones:
   icon-size: large
   children:
     - title: Launching Beta
-      icon: beta.svg
+      icon: beta.png
       icon-bg: "#E8E8E8"
     - title: Management Guidelines
-      icon: management_guidelines.svg
+      icon: guidelines.png
       icon-bg: "#E8E8E8"
     - title: Marketing Campaign
-      icon: marketing.svg
+      icon: marketing.png
       icon-bg: "#E8E8E8"
     - title: Going Live
-      icon: live.svg
+      icon: live.png
       icon-bg: "#E8E8E8"
     - title: Strategic Planning
-      icon: strategy.svg
+      icon: strategy.png
       icon-bg: "#E8E8E8"
 
 - title: Return of Investment
@@ -257,10 +252,10 @@ milestones:
   icon-size: large
   children:
         - title: Quarterly Reports
-          icon: reports.svg
+          icon: reports.png
           icon-bg: "#E8E8E8"
         - title: Annual Payouts
-          icon: annual_payouts.svg
+          icon: payout.png
           icon-bg: "#E8E8E8"
 
 - title: Vision Implementation
@@ -269,10 +264,10 @@ milestones:
   icon-size: large
   children:
         - title: Sustainability
-          icon: sustainability.svg
+          icon: sustainability.png
           icon-bg: "#E8E8E8"
         - title: Reach
-          icon: reach.svg
+          icon: reach.png
           icon-bg: "#E8E8E8"
 
 - title: Innovation
