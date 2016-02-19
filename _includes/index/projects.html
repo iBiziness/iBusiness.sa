@@ -17,7 +17,6 @@
             <div id="grid-items" data-columns>
                 {% assign projects = site.projects | sort:"priority"  %}
                 {% for project in projects %}
-                {% if project.featured %}
                 <!-- start work item -->
                 <a href="{{ project.url }}">
                     <div class="work-item">
@@ -32,7 +31,6 @@
                     </div>
                 </a>
                 <!-- end work item -->
-                {% endif %}
                 {% endfor %}
             </div>
             <!-- End Project Grid -->

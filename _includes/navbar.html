@@ -31,9 +31,7 @@
                         <ul class="dropdown-menu">
                             {% assign projects = site.projects | sort:"priority"  %}
                             {% for project in projects %}
-                            {% if project.featured %}
                             <li><a href="{{ project.url }}">{{ project.title }}</a></li>
-                            {% endif %}
                             {% endfor %}
                         </ul>
                     </li>
