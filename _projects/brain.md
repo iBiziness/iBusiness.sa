@@ -6,7 +6,7 @@ title: Brain
 category: Artificial Intelligence
 headline: Research and Innovation Catalyst
 headline-image: http://ib.sa/img/ib_patterns/1920_brain.png
-logo: http://ib.sa/img/ib_logos/brain_logo.png
+logo: http://ib.sa/img/ib_logos/500x500_brain.png
 client: Brain IO
 date: 2016-01-18 03:49:55 +0800
 website: Brain.io

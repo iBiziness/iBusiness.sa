@@ -6,7 +6,7 @@ priority: 6
 category: Intelligent Advertising
 headline: Targeted Advertising Agency
 headline-image: http://ib.sa/img/ib_patterns/1920_impressions.png
-logo: http://ib.sa/img/ib_logos/impressions_logo.png
+logo: http://ib.sa/img/ib_logos/500x500_impressions.png
 client: Impressions
 date: 2016-01-18 03:49:55 +0800
 website: Impressions.io
