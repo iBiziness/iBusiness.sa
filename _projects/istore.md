@@ -16,7 +16,7 @@ roadmap: true
 
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/istore_logo.png
 featured-thumbnail-alt: iSTORE
 

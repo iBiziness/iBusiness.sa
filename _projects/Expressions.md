@@ -1,6 +1,5 @@
 ---
 layout: project
-featured: true
 priority: 2
 title: Expressions
 category: User Experience Design
@@ -15,9 +14,9 @@ description: Expressions is a User Experience agency that helps lifestyle inspir
 roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/expressions_icon.png
 featured-thumbnail-alt: Expressions
-
 
 # Milestones
 milestones:

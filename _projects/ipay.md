@@ -14,7 +14,7 @@ description: iPay is an online payment processing solution and invoicing system 
 roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/ipay_logo.png
 featured-thumbnail-alt: iPAY
 

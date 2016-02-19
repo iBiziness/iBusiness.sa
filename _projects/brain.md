@@ -1,6 +1,5 @@
 ---
 layout: project
-featured: true
 priority: 1
 title: Brain
 category: Artificial Intelligence
@@ -12,35 +11,10 @@ website: Brain.io
 website-url: http://brain.io
 description: Brain.io is a research, development and innovation company based in The Grand Duchy of Luxembourg.
 
-roadmap: true
-
-# Work Presentation 1
-big-image: http://placehold.it/1280x600
-big-image-alt: Brain.io
-
-# Work Presentation 2
-work-presentation-2-title: The Brand
-work-presentation-2-description: >
-    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://placehold.it/700x500
-work-presentation-2-image-alt: Brand
-
-# Work Presentation 3
-work-presentation-3-title: The Second Part
-work-presentation-3-description: >
-    Nulla efficitur nibh in augue ullamcorper porta nec ultricies arcu.
-work-presentation-3-image: http://placehold.it/700x500
-work-presentation-3-image-alt: The Second Part
-
-# Progress
-research: 90
-design: 80
-development: 85
-
-# Latest (Add these part if you want it to show on latest works)
-latest: true
+# Featured (Add these part if you want it to show on latest works)
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/brain_logo.png
-featured-thumbnail-alt: Swiftli
+featured-thumbnail-alt: Brain.io
 
 # Milestones
 milestones:

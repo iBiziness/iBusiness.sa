@@ -1,6 +1,5 @@
 ---
 layout: project
-featured: true
 priority: 5
 title: Swiftli
 category: Logistic Services
@@ -16,7 +15,7 @@ description: Swiftli is an on-demand delivery network that makes getting things 
 roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/swiftli_logo.png
 featured-thumbnail-alt: Swiftli
 

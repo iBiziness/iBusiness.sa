@@ -1,6 +1,5 @@
 ---
 layout: project
-featured: true
 priority: 6
 title: Impressions
 category: Intelligent Advertising
@@ -15,7 +14,7 @@ description: Impressions is an online advertising service that enables advertise
 roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
-latest: true
+featured: true
 featured-thumbnail: http://ib.sa/img/ib_logos/impressions_logo.png
 featured-thumbnail-alt: Impressions
 
