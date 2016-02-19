@@ -7,7 +7,7 @@ category: User Experience Design
 headline: User Experience Design Studio
 white-text: true
 headline-image: http://ib.sa/img/ib_patterns/1920_expressions.png
-logo: http://ib.sa/img/ib_logos/expressions_logo.png
+logo: http://ib.sa/img/ib_logos/expressions_icon.png
 client: Expressions
 date: 2016-01-18 03:49:55 +0800
 website: Expressions.io
