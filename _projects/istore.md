@@ -4,7 +4,7 @@ featured: true
 priority: 4
 title: iSTORE
 category: E-Commerce Infrastructure
-headline: Intelligent E-Commerce Platform 
+headline: Intelligent E-Commerce Platform
 headline-image: http://ib.sa/img/1920_istore.png
 client: Intelligent Store
 date: 2016-01-18 03:49:55 +0800
@@ -13,33 +13,43 @@ website-url: http://www.example.com
 description: iSTORE is all-in-one e-commerce solution that seamless facilitates and optimizes the process of creating an online presence, adding products, managing your inventory, automated logistic fulfillments of orders, and market exposures with high level of security & technical support.
 roadmap: true
 
-# Work Presentation 1
-big-image: http://placehold.it/1280x600
-big-image-alt: iStore
-
-# Work Presentation 2
-work-presentation-2-title: The Brand
-work-presentation-2-description: >
-    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://placehold.it/700x500
-work-presentation-2-image-alt: Brand
-
-# Work Presentation 3
-work-presentation-3-title: The Second Part
-work-presentation-3-description: >
-    Nulla efficitur nibh in augue ullamcorper porta nec ultricies arcu.
-work-presentation-3-image: http://placehold.it/700x500
-work-presentation-3-image-alt: The Second Part
-
-# Progress
-research: 90
-design: 80
-development: 85
 
 # Latest (Add these part if you want it to show on latest works)
 latest: true
 featured-thumbnail: http://ib.sa/img/ib_logos/istore_logo.png
 featured-thumbnail-alt: iSTORE
+
+# Value of Propositions
+value-of-proposition:
+- title: Convenience to the Business Owners
+  benefits:
+  - title: Business Reach
+    description: Web presence along with the visibility of business products's in  search engines will increase business reach even without the need of franchising or opening multiple stores or locations.
+  - title: Low Operational Costs
+    description: iSTORE intends to reduce overhead and operation costs by minimizing required customers to employee ratio, and cash handling, as well as reducing or eliminating rent and utility bills.
+  - title: Faster And Easier Trading Procedure
+    description: iSTORE's aims to automate checkout, billing and payment services hence making the shopping process efficient and  free of unnecessary hassles.
+  - title: Availability
+    description: iSTORE sites can operate around the clock. To businesses, this further increases the number of daily orders and sales.
+  - title: Insights
+    description: With the evolution of information technology iSTORE will provide accurate information about a business customer criteria, business geographical reach and the impressions of the brand products.
+  - title: Targeted Advertising
+    description: With iSTORE, businesses can target their niche market with integrated advertising agent using the intelligence of information we collect to define the targeted marketing criteria.
+
+- title: Convenience To Customers
+  benefits:
+  - title: Accessibility
+    description: Customers experience greater convenience is the ability to shop whenever they wish so long as they are connected to the Internet with providing many choices of products for sale with a click of a button.
+  - title: User Experience
+    description: We aim to create a unique e-commerce user experience for each niche market we develop.
+  - title: Supportive Shopping Services
+    description: iSTORE will have a marketplace for each niche which going to create an eco-system to provide a lot of supportive shopping services.
+  - title: Subscription Model
+    description: iSTORE enables customers to create an automated buying order for their recurrent consumed goods for better deals.
+  - title: Spending Management
+    description: iSTORE will save and organize the customer bills and visualize it with numbers and statistics so customers can manage their spending behaviors.
+  - title: Loyality Program
+    description: With online shopping it's easier to manage and redeem your points without the need of magnetic cards.
 
 # Milestones
 milestones:

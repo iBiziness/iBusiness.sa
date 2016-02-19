@@ -4,7 +4,7 @@ featured: true
 priority: 6
 title: Impressions
 category: Intelligent Advertising
-headline: Targeted Advertising Agency 
+headline: Targeted Advertising Agency
 headline-image: http://ib.sa/img/1920_impressions.png
 image-is-dark: true
 client: Impressions
@@ -14,33 +14,30 @@ website-url: http://www.example.com
 description: Impressions is an online advertising service that enables advertisers to reach their niche user-base in an integrated method in e-commerce platforms.
 roadmap: true
 
-# Work Presentation 1
-big-image: http://placehold.it/1280x600
-big-image-alt: Impressions
-
-# Work Presentation 2
-work-presentation-2-title: The Brand
-work-presentation-2-description: >
-    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://placehold.it/700x500
-work-presentation-2-image-alt: Brand
-
-# Work Presentation 3
-work-presentation-3-title: The Second Part
-work-presentation-3-description: >
-    Nulla efficitur nibh in augue ullamcorper porta nec ultricies arcu.
-work-presentation-3-image: http://placehold.it/700x500
-work-presentation-3-image-alt: The Second Part
-
-# Progress
-research: 90
-design: 80
-development: 85
-
 # Latest (Add these part if you want it to show on latest works)
 latest: true
 featured-thumbnail: http://ib.sa/img/500x500_Impressions.png
 featured-thumbnail-alt: Impressions
+
+# Value of Propositions
+value-of-proposition:
+- title: Convenience to Business Brands
+  benefits:
+  - title: Targeted Audience
+    description: Using the intelligence of our system businesses will be able to define the targeted user criteria.
+  - title: Increasing Sales
+    description: Impressions will allow business to build a campaign to market brand's products in order to increase brand sales.
+  - title: Insights
+    description: Aftermath reports will give the business insights about the efficiency of the campaign and the rate of success in every aspect.  
+
+- title: Convinance to the User
+  benefits:
+  - title: Relevant Advertising
+  description: Impressions will strictly allow relevant advertisement.
+  - title: Non-obtrusive Marketing
+  description: Impressions will always integrate advertisement in the user experience in non-obtrusive way.
+  - title: Beneficial Deals
+  description: Impressions will seek the best offers to make it available to the users.
 
 # Milestones
 milestones:

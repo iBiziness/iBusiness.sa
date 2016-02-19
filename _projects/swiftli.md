@@ -15,33 +15,32 @@ website-url: http://Swiftli.io
 description: Swiftli is an on-demand delivery network that makes getting things in your city more convenient, affordable, and reliable.
 roadmap: true
 
-# Work Presentation 1
-big-image: http://placehold.it/1280x600
-big-image-alt: Swiftly
-
-# Work Presentation 2
-work-presentation-2-title: The Brand
-work-presentation-2-description: >
-    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://placehold.it/700x500
-work-presentation-2-image-alt: Brand
-
-# Work Presentation 3
-work-presentation-3-title: The Second Part
-work-presentation-3-description: >
-    Nulla efficitur nibh in augue ullamcorper porta nec ultricies arcu.
-work-presentation-3-image: http://placehold.it/700x500
-work-presentation-3-image-alt: The Second Part
-
-# Progress
-research: 90
-design: 80
-development: 85
-
 # Latest (Add these part if you want it to show on latest works)
 latest: true
 featured-thumbnail: http://ib.sa/img/ib_logos/swiftli_logo.png
 featured-thumbnail-alt: Swiftli
+
+# Value of proposition  
+value-of-proposition:
+  - title: Benefits to the Business Owners
+  benefits:
+  - title: Reach
+    description: With Swiftli business will wave the hassle of to door deliveries and increase the reach to wider audience who don't have the transportation mean or time to access their physical stores.
+  - title: Quality service
+    description: Uniformity, trackability, accurate timing and automated pick-up experience all will combine a quality service that will be provided to the business.
+  - title: Lower overhead cost
+    description: Couriers, gas prices and cars all of these cost will be waived so the business can focus on sales and start delivery service immediately.
+  - title: Insights
+    description: Amount of minutes saved, amount of minutes delayed and customer feedback will provide a good insight of the system performance to the business owner.
+
+  - title: Benefits to Users
+  benefits:
+  - title: Accessibility
+    description: With more businesses subscribed to Swiftli user will have an access to a wide spectrum of services at home.
+  - title: Effort minimization
+    description: It is not usual for customers to travel long distances to reach their preferred physical store, Swiftli will eliminate travel time and effort.
+  - title: User Experience
+    description: Delivery speed options, real-time tracking, customer feedback and delivery workflow all will give a unique experience to the users.
 
 # Milestones
 milestones:
