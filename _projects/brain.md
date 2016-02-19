@@ -4,7 +4,7 @@ featured: true
 priority: 1
 title: Brain
 category: Artificial Intelligence
-headline: The Path to Paradigm Shift
+headline: Research and Innovation Catalyst 
 headline-image: http://ib.sa/img/1920_brain.png
 client: Brain IO
 date: 2016-01-18 03:49:55 +0800
