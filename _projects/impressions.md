@@ -5,7 +5,7 @@ priority: 6
 title: Impressions
 category: Intelligent Advertising
 headline: Targeted Advertising Agency
-headline-image: http://ib.sa/img/1920_impressions.png
+headline-image: http://ib.sa/img/ib_patterns/1920_impressions.png
 image-is-dark: true
 client: Impressions
 date: 2016-01-18 03:49:55 +0800

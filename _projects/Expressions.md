@@ -6,7 +6,7 @@ title: Expressions
 category: User Experience Design
 headline: User Experience Design Studio
 white-text: true
-headline-image: http://ib.sa/img/1920_expressions.png
+headline-image: http://ib.sa/img/ib_patterns/1920_expressions.png
 client: Expressions
 date: 2016-01-18 03:49:55 +0800
 website: www.example.com
@@ -14,32 +14,10 @@ website-url: http://www.example.com
 description: Expressions is a User Experience agency that helps lifestyle inspired companies engage consumers and communicate with users with best practice.
 roadmap: true
 
-# Work Presentation 1
-big-image: http://placehold.it/1280x600
-big-image-alt: Impressions
-
-# Work Presentation 2
-work-presentation-2-title: The Brand
-work-presentation-2-description: >
-    Etiam sit amet fringilla lacus. Pellentesque suscipit ante at ullamcorper pulvinar neque porttitor.
-work-presentation-2-image: http://ib.sa/img/500x500_Expressions.png
-work-presentation-2-image-alt: Brand
-
-# Work Presentation 3
-work-presentation-3-title: The Second Part
-work-presentation-3-description: >
-    Nulla efficitur nibh in augue ullamcorper porta nec ultricies arcu.
-work-presentation-3-image: http://placehold.it/700x500
-work-presentation-3-image-alt: The Second Part
-
-# Progress
-research: 100
-design: 100
-development: 100
-
 # Latest (Add these part if you want it to show on latest works)
 featured-thumbnail: http://ib.sa/img/ib_logos/expressions_icon.png
 featured-thumbnail-alt: Expressions
+
 
 # Milestones
 milestones:
