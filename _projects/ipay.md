@@ -85,30 +85,25 @@ milestones:
   icon-size: large
   children:
     - title: Data Collection
-      icon: vision.svg
+      icon: data_collection.png
       icon-bg: "#E8E8E8"
-      parent: Market Research
       children2:
       - title: Market Size
-        icon: vision.svg
+        icon: market_size.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Segments
-        icon: vision.svg
+        icon: market_segments.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Market Policies
-        icon: vision.svg
+        icon: market_policies.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
       - title: Infrastructure Capacity
-        icon: vision.svg
+        icon: infrastructure_capacity.png
         icon-bg: "#E8E8E8"
         icon-size: small
-        parent: Data Collection
 
 
 - title: Market Analysis
@@ -117,20 +112,20 @@ milestones:
   icon-size: large
   children:
   - title: Feasibility Study
-    icon: feasibility_study.svg
+    icon: feasibility_study.png
     icon-bg: "#E8E8E8"
     children2:
       - title: SWOT Analysis
-        icon: swot_analysis.svg
+        icon: swot_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
         parent: Feasibility Study
       - title: Risk Analysis
-        icon: risk_analysis.svg
+        icon: risk_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Financial Study
-        icon: financial_study.svg
+        icon: financial_study.png
         icon-bg: "#E8E8E8"
         icon-size: small
   - title: Practicality Evaluation
@@ -138,11 +133,11 @@ milestones:
     icon-bg: "#E8E8E8"
     children2:
       - title: Audience Behavior Research
-        icon: behavior.svg
+        icon: audience_behavior.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Competition Analysis
-        icon: competition_analysis.svg
+        icon: competition_analysis.png
         icon-bg: "#E8E8E8"
         icon-size: small
 
