@@ -2,12 +2,12 @@
 gems: [jekyll-paginate]
 title: Information Business
 description: > # this means to ignore newlines until "baseurl:"
-  Creative group of entrepreneurs specializing in all forms of information media
+  
 
 # About Section
-about: We are a creative group of entrepreneurs specializing in all forms of information media.
+about: We are group of entrepreneurs specializing in creating, holding and supporting a wide spectrum of information based businesses.
 mission:
-  - Our **mission** is to build eco-system of purposeful services for enriching the web e-commerce experience.
+  - Our first mission is to build infrastructure of web services to enrich the web e-commerce experience.
 
 # Contact Information
 telephone: 920005022
