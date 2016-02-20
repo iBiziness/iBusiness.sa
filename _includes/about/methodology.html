@@ -1,15 +1,15 @@
 <a href="#methodology" class="work-btn" data-toggle="collapse" data-target="#methodology" aria-expanded="false">Business Methodology</a>
 <div id="methodology" class="collapse" data-stellar-background-ratio="0.5" aria-expanded="false">
+  <!-- Section Title -->
+  <div class="row m-top-40">
+      <div class="col-md-12">
+          <h3>Business Methodology</h3>
+          <div class="divider"></div>
+          <h6>Business methodology is the roadmap that our businesses go through to go from crude idea to innovation.</h6>
+      </div>
+  </div>
+  <!-- End Section Title -->
     <section id="cd-timeline" class="cd-container">
-        <!-- Section Title -->
-        <div class="row m-top-40">
-            <div class="col-md-12">
-                <h3>Business Methodology</h3>
-                <div class="divider"></div>
-                <h6>Business methodology is the roadmap that our businesses go through to go from crude idea to innovation.</h6>
-            </div>
-        </div>
-        <!-- End Section Title -->
         {% for methodology in site.data.methodology %}
         <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
                 <div class="cd-timeline-img .large"
