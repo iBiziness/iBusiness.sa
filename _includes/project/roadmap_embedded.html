@@ -4,7 +4,7 @@
   <section id="cd-timeline" class="cd-container">
       {% for milestone in page.milestones %}
       <div class="cd-timeline-block">
-          <div class="cd-timeline-img cd-picture {{ milestone.icon-size }}"
+          <div class="cd-timeline-img cd-picture large"
                {% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}
                data-toggle="collapse"
                data-target="#{{ milestone.title | slugify }}-{{ forloop.index0 }}">
@@ -24,20 +24,13 @@
           <div id="{{ milestone.title | slugify }}-{{ forloop.index0 }}" class="collapse">
               {% for child in milestone.children %}
               <div id="{{ child.title | slugify }}" class="cd-timeline-block">
-                  <div class="cd-timeline-img {{ child.icon-size }}"
+                  <div class="cd-timeline-img"
                        {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
                        data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
                       <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
                   </div> <!-- cd-timeline-img -->
                   <div class="cd-timeline-content">
-                      {% case child.icon-size %}
-                      {% when 'large' %}
-                        <h2>{{ child.title }}</h2>
-                      {% when 'small' %}
-                        <h4>{{ child.title }}</h4>
-                      {% else %}
                         <h3>{{ child.title }}</h3>
-                      {% endcase %}
                       {% if child.description != blank %}
                         <p>{{ child.description }}</p>
                       {% endif %}
@@ -50,18 +43,11 @@
               <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse">
                   {% for child2 in child.children2 %}
                   <div class="cd-timeline-block">
-                      <div class="cd-timeline-img {{ child2.icon-size }}"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
+                      <div class="cd-timeline-img small"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
                           <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
                       </div> <!-- cd-timeline-img -->
                       <div class="cd-timeline-content">
-                          {% case child2.icon-size %}
-                          {% when 'large' %}
-                            <h2>{{ child2.title }}</h2>
-                          {% when 'small' %}
                             <h4>{{ child2.title }}</h4>
-                          {% else %}
-                            <h3>{{ child2.title }}</h3>
-                          {% endcase %}
                           {% if child2.description != blank %}
                             <p>{{ child2.description }}</p>
                           {% endif %}
