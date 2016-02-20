@@ -127,7 +127,7 @@ milestones:
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Technical Specification
-        icon: tech_specs.png
+        icon: technical_specs.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Deployment Specification
