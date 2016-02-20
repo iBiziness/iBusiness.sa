@@ -1,7 +1,7 @@
 <a href="#methodology" class="work-btn" data-toggle="collapse" data-target="#methodology" aria-expanded="false">Business Methodology</a>
 <div id="methodology" class="collapse" data-stellar-background-ratio="0.5" aria-expanded="false">
   <!-- Section Title -->
-  <div class="section row m-bottom-140">
+  <div class="row m-bottom-140">
       <div class="col-md-12">
           <h2>Business Methodology</h2>
           <div class="divider"></div>
@@ -12,7 +12,7 @@
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
         <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
-                <div class="cd-timeline-img .large"
+                <div class="cd-timeline-img large"
                      {% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}
                      data-toggle="collapse"
                      data-target="#{{ methodology.title | slugify }}-{{ forloop.index0 }}">
@@ -51,7 +51,7 @@
                     <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse">
                         {% for child2 in child.children2 %}
                             <div class="cd-timeline-block">
-                                <div class="cd-timeline-img small"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
+                                <div class="cd-timeline-img"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
                                     <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
                                 </div> <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
