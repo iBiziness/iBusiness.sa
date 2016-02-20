@@ -29,6 +29,7 @@ milestones:
 - title: Concept Brainstorming
   icon: brainstorm.svg
   icon-bg: "#E8E8E8"
+  date: 2003/Nov/15
   children:
   - title: Mission
     icon: mission.svg
@@ -52,6 +53,7 @@ milestones:
 - title: Market Research
   icon: market_research.svg
   icon-bg: "#E8E8E8"
+  date: 2008/March/10
   children:
     - title: Data Collection
       icon: data_collection.png
@@ -74,6 +76,7 @@ milestones:
 - title: Market Analysis
   icon: analysis.svg
   icon-bg: "#E8E8E8"
+  date: 2008/April/2
   children:
   - title: Feasibility Study
     icon: feasibility_study.png
@@ -103,6 +106,7 @@ milestones:
 - title: Requirements Preparation
   icon: requirements.svg
   icon-bg: "#E8E8E8"
+  date: 2008/Augus/20
   children:
   - title: Specifications
     icon: specs.png
@@ -139,6 +143,7 @@ milestones:
 - title: Resource Allocation
   icon: resource.svg
   icon-bg: "#E8E8E8"
+  date: 2008/Sep/18
   children:
     - title: Investors
       icon: investors.png
@@ -150,6 +155,7 @@ milestones:
 - title: Entity Formation
   icon: entity.svg
   icon-bg: "#E8E8E8"
+  date: 2009/April/20
   children:
     - title: Equity Distribution
       icon: equity.png
@@ -164,6 +170,7 @@ milestones:
 - title: Project Implementation
   icon: project_implementation.svg
   icon-bg: "#E8E8E8"
+  date: 2010/May/17
   children:
     - title: Employment
       icon: employment.png
@@ -182,6 +189,7 @@ milestones:
 - title: Quality Evaluation
   icon: quality_evaluation.svg
   icon-bg: "#E8E8E8"
+  date: 2011/May/13
   children:
     - title: Alpha
       icon: alpha.png
@@ -196,6 +204,7 @@ milestones:
 - title: Launch
   icon: launch.svg
   icon-bg: "#E8E8E8"
+  date: 2014/Jun/13
   children:
     - title: Launching Beta
       icon: beta.png
