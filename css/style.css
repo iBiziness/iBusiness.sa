@@ -1525,3 +1525,11 @@ label input, textarea{
 #footer .footer-social li {
     padding: 10px 0;
 }
+
+/* Custom CSS */
+
+.collapsing {
+    -webkit-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+}
