@@ -10,14 +10,7 @@
                 <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
             </div> <!-- cd-timeline-img -->
             <div class="cd-timeline-content">
-                {% case methodology.icon-size %}
-                    {% when 'large' %}
                         <h2>{{ methodology.title }}</h2>
-                    {% when 'small' %}
-                        <h4>{{ methodology.title }}</h4>
-                    {% else %}
-                        <h3>{{ methodology.title }}</h3>
-                {% endcase %}
                 {% if methodology.description != blank %}
                     <p>{{ methodology.description }}</p>
                 {% endif %}
@@ -36,14 +29,7 @@
                             <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
                         </div> <!-- cd-timeline-img -->
                         <div class="cd-timeline-content">
-                            {% case child.icon-size %}
-                            {% when 'large' %}
-                                <h2>{{ child.title }}</h2>
-                            {% when 'small' %}
-                                <h4>{{ child.title }}</h4>
-                            {% else %}
                                 <h3>{{ child.title }}</h3>
-                            {% endcase %}
                             {% if child.description != blank %}
                                 <p>{{ child.description }}</p>
                             {% endif %}
@@ -60,14 +46,7 @@
                                     <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
                                 </div> <!-- cd-timeline-img -->
                                 <div class="cd-timeline-content">
-                                    {% case child2.icon-size %}
-                                    {% when 'large' %}
-                                        <h2>{{ child2.title }}</h2>
-                                    {% when 'small' %}
                                         <h4>{{ child2.title }}</h4>
-                                    {% else %}
-                                        <h3>{{ child2.title }}</h3>
-                                    {% endcase %}
                                     {% if child2.description != blank %}
                                         <p>{{ child2.description }}</p>
                                     {% endif %}
