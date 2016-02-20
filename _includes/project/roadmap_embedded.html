@@ -24,7 +24,7 @@
           <div id="{{ milestone.title | slugify }}-{{ forloop.index0 }}" class="collapse">
               {% for child in milestone.children %}
               <div id="{{ child.title | slugify }}" class="cd-timeline-block">
-                  <div class="cd-timeline-img"
+                  <div class="cd-timeline-img large"
                        {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
                        data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
                       <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
