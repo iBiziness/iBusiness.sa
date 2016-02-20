@@ -4,7 +4,7 @@
   <section id="cd-timeline" class="cd-container">
       {% for milestone in page.milestones %}
       <div class="cd-timeline-block">
-          <div class="cd-timeline-img large"
+          <div class="cd-timeline-img large{% if milestone.children %} has-children{% endif %}"
                {% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}
                data-toggle="collapse"
                data-target="#{{ milestone.title | slugify }}-{{ forloop.index0 }}">
@@ -24,7 +24,7 @@
           <div id="{{ milestone.title | slugify }}-{{ forloop.index0 }}" class="collapse">
               {% for child in milestone.children %}
               <div id="{{ child.title | slugify }}" class="cd-timeline-block">
-                  <div class="cd-timeline-img large"
+                  <div class="cd-timeline-img large{% if child.children2 %} has-children{% endif %}"
                        {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
                        data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
                       <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">

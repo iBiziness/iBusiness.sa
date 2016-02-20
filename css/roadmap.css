@@ -77,10 +77,9 @@ Main components
   margin-top: -12px;
 }
 
-  .cd-timeline-img:hover, .active {
-    cursor: pointer;
-    background-color: #1d92ac !important;
-  }
+.cd-timeline-img:hover.has-children, .active {
+  cursor: pointer;
+  background-color: #9e9b7e !important;
 }
 
 /* Sizes */

@@ -246,9 +246,10 @@ $(function () {
 
         // timeline change color
         $('.cd-timeline-img').on('click', function (e) {
-            if($($(this).data('target')).length && !$(this).hasClass('active')){
+            var target = $(this).data('target');
+            var element = $(target);
+            if(element.length && !$(this).hasClass('active')){
                 $(this).addClass('active');
-                var element = $($(this).data('target'));
                 var floatValue = element.prev().find('.cd-timeline-content').css('float');
                 element.find('.cd-timeline-content').each(function(){
                     $(this).css('float', floatValue);

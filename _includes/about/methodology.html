@@ -10,11 +10,10 @@
       </div>
   </div>
   <!-- End Section Title -->
-  <div class="col-md-12 wow fadeInUp">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
         <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
-                <div class="cd-timeline-img large"
+                <div class="cd-timeline-img large {% if methodology.children %} has-children{% endif %}"
                      {% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}
                      data-toggle="collapse"
                      data-target="#{{ methodology.title | slugify }}-{{ forloop.index0 }}">
@@ -34,7 +33,7 @@
             <div id="{{ methodology.title | slugify }}-{{ forloop.index0 }}" class="collapse">
                 {% for child in methodology.children %}
                     <div id="{{ child.title | slugify }}" class="cd-timeline-block">
-                        <div class="cd-timeline-img"
+                        <div class="cd-timeline-img {% if child.children2 %} has-children{% endif %}"
                              {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
                              data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
                             <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
@@ -76,6 +75,5 @@
         {% endif %}
         {% endfor %}
     </section>
-    </div>
 </div>
 <div class="clear"></div>
