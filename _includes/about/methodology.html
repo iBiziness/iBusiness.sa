@@ -1,5 +1,5 @@
 <a class="work-btn" data-toggle="collapse" data-target="#methodology">Methodology</a>
-<div class="methodology collapse">
+<div id="methodology" class="collapse">
     <section id="cd-timeline" class="cd-container">
         {% for methodology in site.data.methodology %}
         <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
