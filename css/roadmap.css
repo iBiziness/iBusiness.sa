@@ -219,6 +219,12 @@ Main components
 .cd-timeline-content h2 {
     color: #303e49;
 }
+.cd-timeline-content h3 {
+    color: #414141;
+}
+.cd-timeline-content h4 {
+    color: #5e5e5e;
+}
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     display: inline-block;
 }
@@ -240,6 +246,7 @@ Main components
     float: left;
     padding: .8em 0;
     opacity: .7;
+    font-size: 1.2em;
 }
 .cd-timeline-content::before {
     content: '';
