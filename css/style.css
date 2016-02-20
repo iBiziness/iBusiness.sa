@@ -651,7 +651,7 @@ blockquote footer {
 
 .bg-about {
     position: relative;
-    background: url('http://ib.sa/img/ib_pattern_white.png');
+    background: url('http://ib.sa/img/ib_patterns/ib_pattern_white.png');
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -936,7 +936,7 @@ blockquote footer {
 
 .bg-clients {
     position: relative;
-    background: url('http://ib.sa/img/ib_pattern_white.png');
+    background: url('http://ib.sa/img/ib_patterns/ib_pattern_white.png');
     background-attachment: fixed;
     background-position: 50% 0;
 
@@ -1035,7 +1035,7 @@ blockquote footer {
 
 .bg-testimonials {
     position: relative;
-    background: url('http://ib.sa/img/ib_pattern_white.png');
+    background: url('http://ib.sa/img/ib_patterns/ib_pattern_white.png');
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
@@ -1495,7 +1495,7 @@ label input, textarea{
 
 .bg-footer {
     position: relative;
-    background-image: url('http://ib.sa/img/ib_pattern_white.png');
+    background-image: url('http://ib.sa/img/ib_patterns/ib_pattern_white.png');
     background-attachment: fixed;
     background-position: 50% 0;
     background-repeat: no-repeat;
