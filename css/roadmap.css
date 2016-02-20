@@ -434,4 +434,7 @@ Main components
     .cd-timeline-content h2 {
         font-size: 2rem;
     }
+    .cd-timeline-content h3 {
+        font-size: 1.5rem;
+    }
 }
