@@ -26,16 +26,6 @@ milestones:
   icon: idea.svg
   icon-bg: "#E8E8E8"
   icon-size: large
-  children:
-    - title: Screening
-      icon: screening.svg
-      icon-bg: "#E8E8E8"
-    - title: Evaluation
-      icon: evaluation.svg
-      icon-bg: "#E8E8E8"
-    - title: Selection
-      icon: selection.svg
-      icon-bg: "#E8E8E8"
 
 - title: Concept Brainstorming
   icon: brainstorm.svg
@@ -137,7 +127,7 @@ milestones:
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Technical Specification
-        icon: technical_specs.png
+        icon: tech_specs.png
         icon-bg: "#E8E8E8"
         icon-size: small
       - title: Deployment Specification
