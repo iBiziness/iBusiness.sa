@@ -839,6 +839,9 @@ blockquote footer {
             box-shadow: 0 -5px 0 0 rgba(158,155,126,1) inset;
 }
 
+.work-btn.large {
+  font-size: x-large;
+}
 
 /*--------------------------------------------------
     11. Single Work
