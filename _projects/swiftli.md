@@ -4,7 +4,7 @@ featured: true
 priority: 5
 title: Swiftli
 category: Logistic Services
-headline: Smart Logistic Services
+headline: Light Logistic Services
 white-text: true
 headline-image: http://ib.sa/img/ib_patterns/1920_swiftli.png
 logo: http://ib.sa/img/ib_logos/500x500_swiftli.png
