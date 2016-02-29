@@ -7,7 +7,7 @@ category: Payment Solutions
 headline: Integrated Payment Solution
 headline-image: http://ib.sa/img/ib_patterns/1920_ipay.png
 logo: http://ib.sa/img/ib_logos/500x500_ipay.png
-client: Integrated Payment
+client: Integrated Payment Solution
 date: 2016-01-18 03:49:55 +0800
 website: ipay.sa
 website-url: http://ipay.sa
