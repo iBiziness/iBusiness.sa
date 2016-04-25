@@ -1,0 +1,20 @@
+- name: Steven
+  role: Designer
+  avatar: http://placehold.it/570x675
+  facebook: http://facebook.com
+  twitter: http://twitter.com
+  dribble: http://dribble.com
+
+- name: Alexa
+  role: Photographer
+  avatar: http://placehold.it/570x675
+  facebook: http://facebook.com
+  twitter: http://twitter.com
+  dribble: http://dribble.com
+
+- name: Alan
+  role: Developer
+  avatar: http://placehold.it/570x675
+  facebook: http://facebook.com
+  twitter: http://twitter.com
+  dribble: http://dribble.com

@@ -1,0 +1,40 @@
+<!-- Start Works -->
+<section id="work" class="section">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-100">
+            <div class="col-md-12">
+                <h3>Projects</h3>
+                <div class="divider"></div>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row wow fadeInUp">
+            <!-- Project Grid -->
+            <div id="grid-items" data-columns>
+                {% assign projects = site.projects | sort:"priority"  %}
+                {% for project in projects %}
+                <!-- start work item -->
+                <a href="{{ project.url }}">
+                    <div class="work-item">
+                        <img src="{{ project.logo }}" alt="{{ project.featured-thumbnail-alt }}">
+                        <div class="caption">
+                            <p class="extra">{{ project.headline }}</p>
+                            <div class="titles">
+                                <h4 class="title">{{ project.title }}</h4>
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- end work item -->
+                {% endfor %}
+            </div>
+            <!-- End Project Grid -->
+            <div class="col-md-12">
+                <a href="/projects" class="work-btn">More works</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Works -->

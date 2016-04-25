@@ -1,0 +1,79 @@
+<a href="#methodology" class="work-btn large" data-toggle="collapse" data-target="#methodology" aria-expanded="false">Business Methodology</a>
+<div id="methodology" class="collapse" data-stellar-background-ratio="0.5" aria-expanded="false">
+  <!-- Section Title -->
+  <div class="row m-bottom-100">
+      <div class="col-md-1 wow fadeInUp"></div>
+      <div class="col-md-11 wow fadeInUp">
+          <h2>Business Methodology</h2>
+          <div class="divider"></div>
+          <h6>Business methodology is the roadmap that our businesses go through to go from crude idea to innovation.</h6>
+      </div>
+  </div>
+  <!-- End Section Title -->
+    <section id="cd-timeline" class="cd-container">
+        {% for methodology in site.data.methodology %}
+        <div id="{{ methodology.title | slugify }}" class="cd-timeline-block">
+                <div class="cd-timeline-img large {% if methodology.children %} has-children{% endif %}"
+                     {% if methodology.icon-bg %} style="background-color: {{ methodology.icon-bg }}"{% endif %}
+                     data-toggle="collapse"
+                     data-target="#{{ methodology.title | slugify }}-{{ forloop.index0 }}">
+                <img src="/img/methodology_icons/{{ methodology.icon }}" alt="{{ methodology.title }}">
+            </div> <!-- cd-timeline-img -->
+            <div class="cd-timeline-content">
+                        <h2>{{ methodology.title }}</h2>
+                {% if methodology.description != blank %}
+                    <p>{{ methodology.description }}</p>
+                {% endif %}
+                {% if methodology.readmore %}
+                    <a href="{{ methodology.readmore }}" class="cd-read-more">Read more</a>
+                {% endif %}
+            </div> <!-- cd-timeline-content -->
+        </div>
+        {% if methodology.children %}
+            <div id="{{ methodology.title | slugify }}-{{ forloop.index0 }}" class="collapse">
+                {% for child in methodology.children %}
+                    <div id="{{ child.title | slugify }}" class="cd-timeline-block">
+                        <div class="cd-timeline-img {% if child.children2 %} has-children{% endif %}"
+                             {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
+                             data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
+                            <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
+                        </div> <!-- cd-timeline-img -->
+                        <div class="cd-timeline-content">
+                                <h3>{{ child.title }}</h3>
+                            {% if child.description != blank %}
+                                <p>{{ child.description }}</p>
+                            {% endif %}
+                            {% if child.readmore %}
+                                <a href="{{ child.readmore }}" class="cd-read-more">Read more</a>
+                            {% endif %}
+                        </div> <!-- cd-timeline-content -->
+                    </div>
+                    {% if child.children2 %}
+                    <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse">
+                        {% for child2 in child.children2 %}
+                            <div class="cd-timeline-block">
+                                <div class="cd-timeline-img"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
+                                    <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
+                                </div> <!-- cd-timeline-img -->
+                                <div class="cd-timeline-content">
+                                        <h4>{{ child2.title }}</h4>
+                                    {% if child2.description != blank %}
+                                        <p>{{ child2.description }}</p>
+                                    {% endif %}
+                                    {% if child2.readmore %}
+                                        <a href="{{ child2.readmore }}" class="cd-read-more">Read more</a>
+                                    {% endif %}
+                                </div> <!-- cd-timeline-content -->
+                            </div>
+                        {% endfor %}
+                    </div>
+                    <div class="clear"></div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="clear"></div>
+        {% endif %}
+        {% endfor %}
+    </section>
+</div>
+<div class="clear"></div>

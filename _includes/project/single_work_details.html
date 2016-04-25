@@ -1,0 +1,94 @@
+<!-- Start Single Work -->
+<section id="single-work" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <!-- Work Detail -->
+                <div class="work-detail">
+                    <p><strong>Project Name:</strong>{{ page.client }}</p>
+                    <p><strong>Date:</strong>{{ page.date | date: "%-d %B %Y"}}</p>
+                    <p><strong>Website:</strong><a href="{{ page.website-url }}">{{ page.website }}</a></p>
+                </div>
+                <!-- End Work Detail -->
+            </div>
+            <div class="col-sm-6">
+                <p>{{ page.description }}</p>
+            </div>
+        </div>
+        {% if page.content-is-ready == true %}
+        <!-- Work Presentation 1 -->
+        <div class="row m-top-40">
+            <div class="col-md-12 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.big-image }}" alt="{{ page.big-image-alt }}">
+            </div>
+        </div>
+        <!-- Work Presentation 2 -->
+        <div class="row m-top-40">
+            <div class="col-sm-5 wow fadeInUp">
+                <h5>{{ page.work-presentation-2-title }}</h5>
+                <div class="divider"></div>
+                <h6>{{ page.work-presentation-2-description }}</h6>
+            </div>
+            <div class="col-sm-7 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.work-presentation-2-image }}" alt="{{ page.work-presentation-2-image-alt }}">
+            </div>
+        </div>
+        <!-- Work Presentation 3 -->
+        <div class="row m-top-40">
+            <div class="col-sm-5 wow fadeInUp">
+                <h5>{{ page.work-presentation-3-title }}</h5>
+                <div class="divider"></div>
+                <h6>{{ page.work-presentation-3-description }}</h6>
+            </div>
+            <div class="col-sm-7 wow fadeInUp">
+                <img class="img-responsive" src="{{ page.work-presentation-3-image }}" alt="{{ page.work-presentation-3-image-alt }}">
+            </div>
+        </div>
+        {% endif %}
+        {% if page.value-of-proposition.size > 0 %}
+        {% include project/value_of_proposition.html %}
+        {% endif %}
+        {% if page.milestones.size > 0 %}
+        {% include project/roadmap_embedded.html %}
+        {% endif %}
+        <div class="row">
+            <div class="col-md-12">
+                <!-- Work Navigation -->
+                <div class="work-navigation">
+                    {% for project in site.projects %}
+                    {% if project.title == page.title %}
+                    {% assign index = forloop.index  %}
+                    {% endif %}
+                    {% endfor %}
+                    {% for project in site.projects %}
+                    {% assign previous = index | minus:1  %}
+                    {% if forloop.index == previous %}
+                    <a href="{{ project.url }}" class="work-prev">Previous</a>
+                    {% elsif previous == 0 %}
+                    <a href="{{ site.projects.last.url }}" class="work-prev">Previous</a>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+
+                    <a href="/projects" class="work-all"><span>All Works</span></a>
+
+                    {% for project in site.projects %}
+                    {% assign next = index | plus:1  %}
+                    {% assign projectSize = site.projects | size  %}
+                    {% if forloop.index == next %}
+                    <a href="{{ project.url }}" class="work-next"><span>Next</span></a>
+                    {% elsif index == projectSize %}
+                    {% if next | minus:1 == projectSize %}
+                    <a href="{{ site.projects.first.url }}" class="work-next"><span>Next</span></a>
+                    {% break %}
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+                <!-- End Work Navigation -->
+            </div>
+        </div>
+
+    </div>
+</section>
+<!-- End Single Work -->

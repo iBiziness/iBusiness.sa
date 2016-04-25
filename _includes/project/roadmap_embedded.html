@@ -1,0 +1,70 @@
+<a href="#roadmap" class="work-btn large" data-toggle="collapse" data-target="#roadmap">Roadmap</a>
+<!-- Embedded Roadmap -->
+<div id="roadmap" class="collapse">
+  <section id="cd-timeline" class="cd-container">
+      {% for milestone in page.milestones %}
+      <div class="cd-timeline-block">
+          <div class="cd-timeline-img large{% if milestone.children %} has-children{% endif %}"
+               {% if milestone.icon-bg %} style="background-color: {{ milestone.icon-bg }}"{% endif %}
+               data-toggle="collapse"
+               data-target="#{{ milestone.title | slugify }}-{{ forloop.index0 }}">
+              <img src="/img/methodology_icons/{{ milestone.icon }}" alt="">
+          </div> <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+              <h2>{{ milestone.title }}</h2>
+              <p>{{ milestone.description }}</p>
+              {% if milestone.readmore %}
+              <a href="{{ milestone.readmore }}" class="cd-read-more">Read more</a>
+              {% endif %}
+              <span class="cd-date">{{ milestone.date | date: "%-d %B %Y"}}</span>
+          </div> <!-- cd-timeline-content -->
+      </div>
+      {% if milestone.children %}
+          <div id="{{ milestone.title | slugify }}-{{ forloop.index0 }}" class="collapse">
+              {% for child in milestone.children %}
+              <div id="{{ child.title | slugify }}" class="cd-timeline-block">
+                  <div class="cd-timeline-img large{% if child.children2 %} has-children{% endif %}"
+                       {% if child.icon-bg %} style="background-color: {{ child.icon-bg }}"{% endif %}
+                       data-toggle="collapse" data-target="#{{ child.title | slugify }}-{{ forloop.index0 }}">
+                      <img src="/img/methodology_icons/{{ child.icon }}" alt="{{ child.title }}">
+                  </div> <!-- cd-timeline-img -->
+                  <div class="cd-timeline-content">
+                        <h3>{{ child.title }}</h3>
+                      {% if child.description != blank %}
+                        <p>{{ child.description }}</p>
+                      {% endif %}
+                      {% if child.readmore %}
+                         <a href="{{ child.readmore }}" class="cd-read-more">Read more</a>
+                      {% endif %}
+                  </div> <!-- cd-timeline-content -->
+              </div>
+              {% if child.children2 %}
+              <div id="{{ child.title | slugify }}-{{ forloop.index0 }}" class="collapse">
+                  {% for child2 in child.children2 %}
+                  <div class="cd-timeline-block">
+                      <div class="cd-timeline-img"{% if child2.icon-bg %} style="background-color: {{ child2.icon-bg }}"{% endif %}>
+                          <img src="/img/methodology_icons/{{ child2.icon }}" alt="{{ child2.title }}">
+                      </div> <!-- cd-timeline-img -->
+                      <div class="cd-timeline-content">
+                            <h4>{{ child2.title }}</h4>
+                          {% if child2.description != blank %}
+                            <p>{{ child2.description }}</p>
+                          {% endif %}
+                          {% if child2.readmore %}
+                            <a href="{{ child2.readmore }}" class="cd-read-more">Read more</a>
+                          {% endif %}
+                      </div> <!-- cd-timeline-content -->
+                  </div>
+                  {% endfor %}
+              </div>
+              <div class="clear"></div>
+              {% endif %}
+              {% endfor %}
+          </div>
+        <div class="clear"></div>
+      {% endif %}
+      {% endfor %}
+  </section>
+</div>
+<!-- End Embedded Roadmap -->

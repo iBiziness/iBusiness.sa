@@ -1,0 +1,19 @@
+<!-- Start Facts -->
+<section id="facts" class="p-bottom-140">
+    <div class="container">
+        <div class="row">
+            {% for fact in site.data.counts %}
+            <div class="col-md-3 col-sm-6">
+                <!-- facts box -->
+                <div class="box-count">
+                    <h1><span class="countup">{{ fact.count }}</span>{{ fact.suffix }}</h1>
+                    <h6>{{ fact.title }}</h6>
+                    <div class="divider-center"></div>
+                </div>
+                <!-- end facts box -->
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Facts -->

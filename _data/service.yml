@@ -1,0 +1,42 @@
+- title: Brainstorming & Innovation
+  icon: ion-ios-lightbulb-outline
+  description1: Innovation means to change, renew, and create more creative and better products, process or ways of doing things. It is also defined as a process through which the social and economic value is extracted from knowledge by developing, implementing and generating ideas that produce improved or new products, strategies, processes or services.
+  description2: While innovation leads to observable improvement in services, products and ways of doing things, creativity refers to ability of coming up with original and new ideas. Such ideas on their own do not have any value and the value is only realized after they get implemented. As such, creativity is an important precursor to innovation.
+
+- title: Research & Analysis
+  icon: ion-asterisk
+  description1: Design Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Design Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+
+- title: Requirements Preparation
+  icon: ion-ios-paper-outline
+  description1: Brand Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Brand Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+
+- title: Resource Allocation
+  icon: ion-social-usd-outline
+  description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+
+- title: Entity Formation
+  icon: ion-ios-compose-outline
+  description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true
+
+- title: Project Implementation
+  icon: ion-code-working
+  description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+
+- title: Quality Evaluation
+  icon: ion-ios-checkmark-outline
+  description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true
+
+- title: Product Launching
+  icon: ion-ios-bolt-outline
+  description1: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  description2: Development Maecenas  volutpat, diam enim sagittis quam, id porta quam. Sed id dolor consectetur fermentum volutpat nibh, accumsan purus. Lorem ipsum dolor sit semper amet, consectetur adipiscing elit.
+  future_service: true

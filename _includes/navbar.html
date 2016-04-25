@@ -1,0 +1,45 @@
+<!-- Start Navigation -->
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a {% if page.url == "/" %}data-scroll{% endif %} class="navbar-brand" href="/"><img src="/img/logo.png" alt="{{ site.title }}"></a>
+            </div>
+            <!-- Social Icons -->
+            <div class="header-social hidden-sm hidden-xs">
+                <ul class="social-icons list-inline">
+                    <li><a href="{{ site.linkedin }}"><i class="ion-social-linkedin"></i></a></li>
+                    <li><a href="{{ site.github }}"><i class="ion-social-github"></i></a></li>
+                    <li><a href="{{ site.twitter }}"><i class="ion-social-twitter"></i></a></li>
+                </ul>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/about">About</a></li>
+                    <!--<li><a href="/service">Service</a></li>-->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            {% assign projects = site.projects | sort:"priority"  %}
+                            {% for project in projects %}
+                            <li><a href="{{ project.url }}">{{ project.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                    <li><a {% if page.url == "/" %}data-scroll{% endif %} href="/#contact">Contact</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- End Navigation -->

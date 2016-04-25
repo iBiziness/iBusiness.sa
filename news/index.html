@@ -1,0 +1,65 @@
+---
+layout: default
+
+---
+
+<!-- Start News List -->
+<section id="news-list" class="section">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-100">
+            <div class="col-md-6">
+                <h3>News List</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="col-md-6">
+                <h6>Sed ac mattis justo. Vestibulum facilisis at arcu ac porta. Vivamus at ipsum at quam hendrerit gravida.</h6>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row">
+          {% for post in paginator.posts %}
+            <!-- news item -->
+            <div class="col-md-4 col-sm-6 wow fadeInUp">
+                <a href="{{ post.url }}">
+                    <div class="news-list-item">
+                        <img src="{{ post.thumbnail }}" alt="">
+                        <div class="caption">
+                            <p class="date">{{ post.date | date: "%d %B %Y"}}</p>
+                            <div class="titles">
+                                <h4 class="title">{{ post.title }}</h4>
+                                <div class="divider"></div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- end news item -->
+            {% endfor %}
+        </div>
+        <div class="row">
+            <!-- Page Navigation -->
+            {% if paginator.total_pages > 1 %}
+            <div class="col-md-12 wow fadeInUp">
+                <div class="page-navigation">
+                    {% if paginator.previous_page %}
+                    <a class="page-prev" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">Previous</a>
+                    {% else %}
+                    <a href="#" class="page-prev inactive">Previous</a>
+                    {% endif %}
+
+                    <span class="page-all">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+                    {% if paginator.next_page %}
+                    <a class="page-next" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next</a>
+                    {% else %}
+                    <a href="#" class="page-next inactive">Next</a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+            <!-- End Page Navigation -->
+        </div>
+    </div>
+</section>
+<!-- End News List -->

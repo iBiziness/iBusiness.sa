@@ -1,0 +1,39 @@
+# Site settings
+gems: [jekyll-paginate]
+title: Information Business
+description: > # this means to ignore newlines until "baseurl:"
+
+
+# About Section
+about: We are group of entrepreneurs specializing in creating, holding and supporting a wide spectrum of information based businesses.
+mission:
+  - Our first mission is to build infrastructure of web services to enrich the web e-commerce experience.
+
+# Contact Information
+telephone: +966508947779
+address: Firas Bin Nadr Street, Ulaya, Khobar, Saudi Arabia
+email: Support@iB.sa
+
+# Social Links
+facebook: http://facebook.com
+twitter: https://twitter.com/InforBizness
+google: http://google.com
+linkedin: https://linkedin.com/company/information-business
+github: https://github.com/iBiziness
+behance: http://behance.con
+dribble: http://dribble.com
+pinterest: http://pinterest.com
+
+# Build settings
+markdown: kramdown
+
+# Collections
+collections:
+  projects:
+    permalink: /projects/:title/
+    output: true
+
+# News
+permalink: /news/:categories/:title
+paginate_path: "/news/:num/"
+paginate: 6

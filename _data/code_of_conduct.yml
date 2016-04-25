@@ -1,0 +1,38 @@
+- title: Compliance
+  description: We aim to be a role model in adherence to governments rules and regulations as we see mutual benefits in the growth of economy and creating a healthier ecosystem for our businesses to run and operate.
+  icon: ion-asterisk
+
+- title: Standardization
+  description: Adhering to the latest defined standards while defining new standards for the unstandardized sectors and implementing the web best practices in terms of usability, function and efficiency for all parties involved.
+  icon: ion-ios-lightbulb-outline
+
+- title: Transparency
+  description: We believe that information delivery is not just about how much information you can provide. It is very important that information can be understood quickly by the recipient. For that reason,  we strive through various methods to achieve the most comprehendible information delivery form.
+  icon: ion-ios-paper-outline
+
+- title: Error Minimization
+  description: Errors are unavoidable. However, a big part of our commitment is to minimize the frequency of errors and their impact. With that in mind, we engineer workflows and processes that distribute load and separate concerns which in turn minimizes, effort, time and most importantly, errors, with absolutely no compromises in accuracy or quality.
+  icon: ion-social-usd-outline
+
+- title: Eco-Friendliness
+  description: Our green promise includes, implementing business processes and workflows that minimize impact on the environment, and prioritizing green services providers.
+  icon: ion-ios-compose-outline
+
+- title: Equilibrium
+  description: We believe that the consumer and business rights are not opposing forces, they are one and the same, they’re the guidelines that make their relationship beneficial for all parties involved, a win-win partnership.
+  icon: ion-code-working
+
+- title: Community Giveback
+  description: Solving community problems has a high priority in our business evaluations, and we are committed to giving back to the community even before making a profit, by delivering services of quality.
+  icon: ion-ios-checkmark-outline
+
+- title: Monetization
+  description: We believe in quality as much as we believe in self-benefit, and maximizing both is achieved by creating sustainable businesses that do not rely on a short-term high profit business model, real profitability is reached by focusing on the company image and service quality.
+  icon: ion-ios-bolt-outline
+
+- title: Non-Obtrusive Marketing
+  description: We believe in marketing ads that are beneficial and convenient to the consumer as well as all parties involved. For that reason, we developed marketing strategies and techniques that strictly rely on relevant and non-obtrusive ads and promotions.
+
+- title: Privacy Matters
+  description: Respecting individuals privacy is essential. on the other hand businesses need to share some of their users' information to provide automated and better quality service so we have developed [define ananometa].
+  icon: ion-ios-bolt-outline

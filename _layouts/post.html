@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+<!-- Start News Post -->
+<section id="news-post" class="section">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-100">
+            <div class="col-md-6">
+                <h3>{{ page.title }}</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="col-md-6">
+                <h6>{{ page.headline }}</h6>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row">
+            <!-- news details -->
+            <div class="col-md-3 wow fadeInUp">
+                <div class="news-detail">
+                    <p><strong>Posted on:</strong>{{ page.date | date: "%d %B %Y"}}</p>
+                    <p><strong>Author:</strong>{{ page.author }}</p>
+                    <p><strong>Share:</strong><a href="#">Facebook</a> / <a href="#">Twitter</a> / <a href="#">Google+</a></p>
+                </div>
+            </div>
+            <!-- end news details -->
+            <!-- images + text news -->
+            <div class="col-md-9 wow fadeInUp" data-wow-delay="0.2s">
+                <p>{{ content }}</p>
+            </div>
+            <!-- end images + text news -->
+        </div>
+        <div class="row">
+            <!-- Page Navigation -->
+            <div class="col-md-12 wow fadeInUp">
+              <div class="work-navigation">
+                  {% if page.previous.url %}
+                  <a href="{{page.previous.url}}" class="page-prev">Previous</a>
+                  {% else %}
+                  <a href="#" class="page-prev inactive">Previous</a>
+                  {% endif %}
+                  <a href="/news" class="page-all"><span>All Posts</span></a>
+                  {% if page.next.url %}
+                  <a href="{{page.next.url}}" class="page-next"><span>Next</span></a>
+                  {% else %}
+                  <a href="#" class="page-next inactive"><span>Next</span></a>
+                  {% endif %}
+              </div>
+            </div>
+            <!-- End Page Navigation -->
+        </div>
+    </div>
+</section>
+<!-- End News Post -->

@@ -1,0 +1,40 @@
+<!-- Start Team -->
+<section id="team" class="section">
+    <div class="container">
+        <!-- Section Title -->
+        <div class="row m-bottom-100">
+            <div class="col-md-6">
+                <h3>The Team</h3>
+                <div class="divider"></div>
+            </div>
+            <div class="col-md-6">
+                <h6>Sed ac mattis justo. Vestibulum facilisis at arcu ac porta. Vivamus at ipsum.</h6>
+            </div>
+        </div>
+        <!-- End Section Title -->
+        <div class="row">
+            {% for member in site.data.team %}
+            <div class="col-md-4 wow fadeInUp" data-wow-delay="0.{{ forloop.index0 }}s">
+                <!-- member item -->
+                <div class="team-member">
+                    <div class="member">
+                        <img src="{{ member.avatar }}" alt="">
+                        <ul class="member-social">
+                            <li><a href="{{ member.twitter }}"><i class="ion-social-twitter"></i></a></li>
+                            <li><a href="{{ member.facebook }}"><i class="ion-social-facebook"></i></a></li>
+                            <li><a href="{{ member.dribble }}"><i class="ion-social-dribbble-outline"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="member-info">
+                        <h5>{{ member.name }}</h5>
+                        <div class="divider-small"></div>
+                        <h6>{{ member.role }}</h6>
+                    </div>
+                </div>
+                <!-- end member item -->
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Team -->
