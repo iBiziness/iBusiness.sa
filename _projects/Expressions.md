@@ -3,8 +3,8 @@ layout: project
 featured: true
 priority: 2
 title: Expressions
-category: User Experience Design
-headline: User Experience Design Studio
+category: Consultation
+headline: Technology Consultation Agency
 white-text: true
 headline-image: http://ib.sa/img/ib_patterns/1920_expressions.png
 logo: http://ib.sa/img/ib_logos/500x500_expressions.png
@@ -12,7 +12,7 @@ client: Expressions
 date: 2016-01-18 03:49:55 +0800
 website: Expressions.io
 website-url: http://expressions.io
-description: Expressions is a User Experience agency that helps lifestyle inspired companies engage consumers and communicate with users with best practice.
+description: Expressions is a consultation agency that focus on information technology to help governments and enterprises to implement the best technology stack in order to achieve their business goals along with maximizing the potential of information technology, we aim to bridge the gap between business entities and development entities.
 roadmap: true
 
 # Latest (Add these part if you want it to show on latest works)
